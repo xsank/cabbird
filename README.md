@@ -35,6 +35,7 @@ Stack
 
 1. stack structure
 2. infix expression to postfix expression
+3. calculate expression with postfix 
 
 Queue
 -----
