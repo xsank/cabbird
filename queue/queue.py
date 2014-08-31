@@ -3,7 +3,7 @@ class Queue:
         self.items=[]
 
     def is_empty(self):
-        return bool(self.items)
+        return len(self.items)==0
 
     def push(self,item):
         self.items.append(item)
@@ -12,7 +12,7 @@ class Queue:
         if self.is_empty():
             raise Exception('Queue is empty!')
         else:
-            return self.pop(0)
+            return self.items.pop(0)
 
     def size(self):
         return len(self.items)
@@ -34,7 +34,7 @@ class LinkedQueue:
         self._size=0
 
     def is_empty(self):
-        return bool(self.front) and bool(self.back)
+        return self._size==0
 
     def enqueue(self,value):
         node=Node(value)
