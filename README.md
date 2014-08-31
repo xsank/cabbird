@@ -29,3 +29,21 @@ Bit operation
 1. get max 1 num
 2. get max serial 1 num
 3. swap integer value
+
+Stack
+-----
+
+1. stack structure
+2. infix expression to postfix expression
+
+Queue
+-----
+
+1. queue structure
+
+Tree
+----
+
+1. binary tree structure
+2. binary search tree structure
+3. traversal binary tree
