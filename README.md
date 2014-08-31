@@ -30,6 +30,11 @@ Bit operation
 2. get max serial 1 num
 3. swap integer value
 
+Big data
+--------
+
+1. get top k
+
 Stack
 -----
 

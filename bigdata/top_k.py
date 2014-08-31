@@ -26,12 +26,12 @@ def devide_data(f=None,num=K):
         for tf in tmp_files:
             tf.close()
 
-def record_tmp_res(f=None,num=K):
+def record_tmp_res(f=None,num=K,reverse=True):
     with open(f,'r') as f:
         count=collections.defaultdict(lambda:0)
         for i in f:
             count[i]+=1
-        tmp=sorted(count.items(),lambda x,y:cmp(x[1],y[1]),reverse=True)
+        tmp=sorted(count.items(),lambda x,y:cmp(x[1],y[1]),reverse=reverse)
         tmp_res={}
         for i in range(num):
             tmp_res[tmp[i][0].strip()]=tmp[i][1]
