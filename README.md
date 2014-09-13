@@ -40,6 +40,12 @@ Big data
 
 1. get top k
 
+DP
+--
+
+1. fibonacci
+2. longest common subsequence
+
 Stack
 -----
 
