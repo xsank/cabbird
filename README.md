@@ -65,3 +65,9 @@ Tree
 2. binary search tree structure
 3. traversal binary tree
 4. html parser
+
+Graph
+-----
+
+1. Prim
+2. Dijkstra
