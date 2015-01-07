@@ -63,7 +63,11 @@ class JsonFormatter:
 
     def render(self):
         self.parse(self.obj,0)
-        print ''.join(self.stack)
+        res_file='good'+self.name
+        res=''.join(self.stack)
+        with open(res_file,'w') as f:
+            f.write(res)
+        print res
 
 if __name__=="__main__":
     jf=JsonFormatter(name="json.txt")

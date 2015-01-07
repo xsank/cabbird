@@ -1,0 +1,25 @@
+
+{
+    "firstName":"John",
+    "lastName":"Smith",
+    "age":25,
+    "sex":"third",
+    "phoneNumber":
+    [
+        {
+            "type":"home",
+            "number":"212555-1234",
+        },
+        {
+            "type":"fax",
+            "number":"646555-4567",
+        },
+    ],
+    "address":
+    {
+        "postalCode":"10021",
+        "city":"NewYork",
+        "streetAddress":"212ndStreet",
+        "state":"NY",
+    },
+}
