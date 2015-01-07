@@ -2,11 +2,9 @@ def memo(func):
     cache={}
     def decorate(*args):
         key=args
-        if key in cache:
-            return cache[key]
-        else:
+        if key not in cache:
             cache[key]=func(*args)
-            return cache[key]
+        return cache[key]
     return decorate
 
 
