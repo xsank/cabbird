@@ -71,3 +71,9 @@ Graph
 
 1. Prim
 2. Dijkstra
+
+LeetCode
+--------
+
+1. two sum
+2. add two numbers
