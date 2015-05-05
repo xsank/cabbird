@@ -27,6 +27,7 @@ Recursive
 ---------
 
 1. json pretty print
+2. filter chinese file
 
 Bit operation
 -------------
