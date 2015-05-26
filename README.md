@@ -85,5 +85,6 @@ LeetCode
 12. integer to roman
 23. merge k sorted lists
 24. swap nodes in pairs
+34. search for a range
 215. kth largest element in an array
 216. combination sum III
