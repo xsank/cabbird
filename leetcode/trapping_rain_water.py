@@ -1,7 +1,5 @@
 
 def trap(height):
-    dic={}
-    area=height[:]
     start=0
     end=len(height)-1
     left=0
@@ -9,21 +7,20 @@ def trap(height):
     if end<=0:
         return 0
     _max_index=height.index(max(height))
+    _sum=0
     while start<=_max_index:
         if height[start]>=left:
             left=height[start]
         else:
-            dic[start]=left
+            _sum+=(left-height[start])
         start+=1
     while end>=_max_index:
         if height[end]>=right:
             right=height[end]
         else:
-            dic[end]=right
+            _sum+=(right-height[end])
         end-=1
-    for i,j in dic.items():
-        area[i]=j
-    return sum(area)-sum(height)
+    return _sum
 
 
 if __name__=="__main__":
