@@ -91,5 +91,6 @@ LeetCode
 39. combination sum
 40. combination sum II
 41. first missing positive
+42. trapping rain water
 215. kth largest element in an array
 216. combination sum III
