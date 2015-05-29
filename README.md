@@ -93,6 +93,7 @@ LeetCode
 41. first missing positive
 42. trapping rain water
 43. multiply strings
+46. permutations
 55. jump game
 215. kth largest element in an array
 216. combination sum III
