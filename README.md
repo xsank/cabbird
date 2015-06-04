@@ -98,6 +98,7 @@ LeetCode
 48. rotate image
 50. pow(x,n)
 51. n queens
+52. n queens II
 55. jump game
 215. kth largest element in an array
 216. combination sum III
