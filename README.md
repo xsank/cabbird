@@ -100,6 +100,7 @@ LeetCode
 51. n queens
 52. n queens II
 53. maximum subarray
+54. spiral matrix
 55. jump game
 215. kth largest element in an array
 216. combination sum III
