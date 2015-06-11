@@ -16,13 +16,15 @@ from heap_sort import heap_sort
 cases=[
     [],
     [1],
-    [1,3,1,4,21]
+    [1,3,1,4,21],
+    [3,1,2,4]
 ]
 
 answers=[
     [],
     [1],
-    [1,1,3,4,21]
+    [1,1,3,4,21],
+    [1,2,3,4]
 ]
 
 def test_sort(func):
@@ -31,7 +33,8 @@ def test_sort(func):
     just because the bucket sort,count sort,radix sort.
 
     '''
-    for index,case in enumerate(cases):
+    tmp_cases=[i[:] for i in cases]
+    for index,case in enumerate(tmp_cases):
         try:
             assert func(case)==answers[index]
         except Exception:

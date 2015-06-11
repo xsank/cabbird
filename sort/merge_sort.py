@@ -16,5 +16,5 @@ def merge_sort(l=[]):
         return l
     else:
         middle=length/2
-        return merge(l[:middle],l[middle:])
+        return merge(merge_sort(l[:middle]),merge_sort(l[middle:]))
 
