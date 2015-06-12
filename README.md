@@ -109,5 +109,6 @@ LeetCode
 64. minimum path sum
 65. valid number (i do not think '3.' is valid)
 71. simplify path
+73. set matrix zeroes
 215. kth largest element in an array
 216. combination sum III
