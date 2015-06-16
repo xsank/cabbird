@@ -108,6 +108,7 @@ LeetCode
 63. unique paths II
 64. minimum path sum
 65. valid number (i do not think '3.' is valid)
+69. sqrt(x)
 71. simplify path
 73. set matrix zeroes
 215. kth largest element in an array
