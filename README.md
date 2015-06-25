@@ -120,5 +120,6 @@ LeetCode
 90. subsets II
 91. decode ways
 94. binary tree inorder traversal
+96. unique binary search trees
 215. kth largest element in an array
 216. combination sum III
