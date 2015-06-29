@@ -121,5 +121,6 @@ LeetCode
 91. decode ways
 94. binary tree inorder traversal
 96. unique binary search trees
+136. single number
 215. kth largest element in an array
 216. combination sum III
