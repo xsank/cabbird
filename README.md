@@ -124,5 +124,6 @@ LeetCode
 136. single number
 147. single number II
 153. find minimum in rotated sorted array
+154. find minimum in rotated sorted array II
 215. kth largest element in an array
 216. combination sum III
