@@ -76,54 +76,111 @@ Graph
 LeetCode
 --------
 
-1. two sum
-2. add two numbers
-3. longest substring without repeating characters
-4. median of two sorted arrays
-5. longest palindromic substring
-11. container with most water
-12. integer to roman
-23. merge k sorted lists
-24. swap nodes in pairs
-33. search in rotated sorted array
-34. search for a range
-35. search insert position
-39. combination sum
-40. combination sum II
-41. first missing positive
-42. trapping rain water
-43. multiply strings
-46. permutations
-47. permutations II
-48. rotate image
-50. pow(x,n)
-51. n queens
-52. n queens II
-53. maximum subarray
-54. spiral matrix
-55. jump game
-59. spiral matrix II
-61. rotate list
-62. unique paths
-63. unique paths II
-64. minimum path sum
-65. valid number (i do not think '3.' is valid)
-69. sqrt(x)
-71. simplify path
-73. set matrix zeroes
-75. sort colors
-77. combinations
-78. subsets
-80. remove duplicates from sorted array II
-83. remove duplicates from sorted list II
-86. partition list
-90. subsets II
-91. decode ways
-94. binary tree inorder traversal
-96. unique binary search trees
-136. single number
-147. single number II
-153. find minimum in rotated sorted array
-154. find minimum in rotated sorted array II
-215. kth largest element in an array
-216. combination sum III
+3sum
+add_binary
+add_two_numbers
+balanced_binary_tree
+binary_tree_inorder_traversal
+climbing_stairs
+combinations
+combination_sum
+combination_sum_ii
+combination_sum_three
+compare_version_numbers
+container_with_most_water
+contains_duplicate
+count_and_say
+count_primes
+decode_ways
+divide_two_integers
+excel_sheet_column_number
+excel_sheet_column_title
+factorial_trailing_zeroes
+find_minimum_in_ratated_sorted_array
+find_minimum_in_ratated_sorted_array_II
+first_missing_positive
+generate_parentheses
+group_anagrams
+guess_number_higher_or_lower
+happy_number
+house_robber
+house_robber_recursive
+implement_queue_using_stacks
+integer_to_roman
+invert_binary_tree
+jump_game
+kth_largest_element_in_an_array
+length_of_last_word
+letter_combinations_of_a_phone_number
+longest_common_prefix
+longest_palindromic_substring
+longest_substring_without_repeating_characters
+majority_element
+maximum_subarray
+median_of_two_sorted_arrays
+merge_k_sorted_lists
+merge_two_sorted_lists
+minimum_depth_of_binary_tree
+minimum_path_sum
+min_stack
+missing_number
+multiply_strings
+number_of_one_bit
+n_queens
+n_queens_II
+palindrome_number
+partition_list
+pascals_triangle
+pascals_triangle_II
+permutations
+permutations_II
+pow
+power_of_two
+ransom_note
+rectangle_area
+regular_expression_matching
+remove_duplicates_from_sorted_array
+remove_duplicates_from_sorted_array_II
+remove_duplicates_from_sorted_list
+remove_duplicates_from_sorted_list_II
+remove_element
+remove_linked_list_elements
+remove_nth_node_from_end_of_list
+reverse_bits
+reverse_integer
+reverse_linked_list
+reverse_string
+roman_to_integer
+rotate_array
+rotate_image
+rotate_list
+same_tree
+search_for_a_range
+search_insert_position
+search_in_rotated_sorted_array
+set_matrix_zeroes
+simplify_path
+single_number
+single_number_II
+sort_colors
+sort_list
+spiral_matrix
+spiral_matrix_II
+sqrt
+strict_jump_game
+string_to_integer
+subsets
+subsets_II
+summary_ranges
+swap_nodes_in_pairs
+trapping_rain_water
+two_sum
+ugly_number
+ugly_number_II
+unique_binary_search_tree
+unique_paths
+unique_paths_II
+valid_number
+valid_parentheses
+valid_perfect_square
+word_break
