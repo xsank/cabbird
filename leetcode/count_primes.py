@@ -12,7 +12,7 @@ def countPrimes(n):
         if isPrime(i):
             total+=1
     return total
-
+    
 
 if __name__=="__main__":
     print countPrimes(10)
