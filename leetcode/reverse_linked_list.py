@@ -12,5 +12,5 @@ def reverseList(head):
     return _head.next
 
 if __name__=="__main__":
-    _list=listToNode([])
+    _list=listToNode([1,2,3,4,5])
     printNode(reverseList(_list))

@@ -7,8 +7,8 @@ def wordBreak(s,dict):
         end=index+len(ts)
         if index>=0:
             for i in range(index,end):
-                indexes.remove(i)
-    return len(indexes)==0
+                indexes[i]=-1
+    return -sum(indexes)==length
 
 
 
