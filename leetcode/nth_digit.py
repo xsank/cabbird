@@ -1,0 +1,2 @@
+def findNthDigit(n):
+    pass

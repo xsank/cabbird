@@ -1,23 +1,19 @@
 from structure.listnode import *
 
-
 def reverseBetween(head,m,n):
-    p=ListNode(-1)
-    p.next=head
-    for _ in range(m-1):
+    _head=p=ListNode(-1)
+    p=head
+    for i in range(m-1):
         p=p.next
-    _head=p
-    p=p.next
-    pp=p
-    t=n-m
-    while t>0:
-        ttp=p.next.next
-        tp=p.next
-        p.next.next=p
-        p=tp
-    _head.next=p
+    _head.next=p.next
+    while p:
+        t=_head.next
+        tt=p.next
+        _head.next=p
+        p.next=t
+        p=tt
     return _head.next
 
 if __name__=="__main__":
     _list=listToNode([1,2,3,4,5])
-    printNode(reverseBetween(_list,2,4))
+    printNode(reverseList(_list))

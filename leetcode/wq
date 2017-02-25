@@ -1,0 +1,29 @@
+
+def wordBreak(s,wordDict):
+    res=[]
+    dfs(s,wordDict,res)
+    return any(res)
+
+
+def dfs(s,dict,res):
+    if s=="":
+        res.append(True)
+    else:
+        lend=len(dict)
+        if lend==0:
+            res.append(False)
+        else:
+            dfs(s,dict[:lend-1],res)
+            index=s.find(dict[-1])
+            if index>=0:
+                s=s[:index]+s[index+len(dict[-1]):] 
+                dfs(s,dict[:lend-1],res)
+
+
+if __name__=="__main__":
+    print wordBreak("bb",["a","b","bbb","bbbb"])
+    print wordBreak("aaaaaaa",["aaaa","aaa"])
+    print wordBreak("leetcode",["leet","code"])
+    print wordBreak("leetcod",["leet","code"])
+    print wordBreak("abcd",["a","abc","b","cd"])
+    print wordBreak("abcd",["abc","cd","b"])
