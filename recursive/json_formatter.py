@@ -22,6 +22,7 @@ class JsonFormatter:
 
     def prepare(self):
         try:
+            self.source = self.source.replace("null", "None").replace("true", "True").replace("false", "False")
             self.obj = eval(self.source)
         except:
             raise Exception('Invalid json string!')
