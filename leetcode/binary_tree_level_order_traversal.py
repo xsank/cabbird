@@ -2,10 +2,10 @@ from structure.treenode import *
 
 
 def _levelOrder(root):
-    queue=[root]
-    res=[]
+    queue = [root]
+    res = []
     while queue:
-        node=queue.pop(0)
+        node = queue.pop(0)
         if node:
             res.append(node.val)
             if node.left:
@@ -16,20 +16,21 @@ def _levelOrder(root):
 
 
 def levelOrder(root):
-    res=[]
-    levelTravel(res,root,0)
+    res = []
+    levelTravel(res, root, 0)
     return res
 
 
-def levelTravel(total,root,level):
+def levelTravel(total, root, level):
     if root:
-        if len(total)==level:
+        if len(total) == level:
             total.append([])
         total[level].append(root.val)
-        levelTravel(total,root.left,level+1)
-        levelTravel(total,root.right,level+1)
+        levelTravel(total, root.left, level + 1)
+        levelTravel(total, root.right, level + 1)
 
-    
-if __name__=="__main__":
-    node=listToTree([1,2,2,4,3,4,3])
-    print levelOrder(node)
+
+if __name__ == "__main__":
+    node = listToTree([1, 2, 2, 4, 3, 4, 3])
+    print
+    levelOrder(node)

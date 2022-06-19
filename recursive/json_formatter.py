@@ -30,35 +30,35 @@ class JsonFormatter:
     def line_intend(self, level=0):
         return '\n' + ' ' * self.intend * level
 
-    def parse_dict(self,obj=None,intend_level=0):
+    def parse_dict(self, obj=None, intend_level=0):
         if intend_level == 0:
             # 这个判断是为了防止文件开头出现空行
             self.stack.append('{')
         else:
-            self.stack.append(self.line_intend(intend_level)+'{')
+            self.stack.append(self.line_intend(intend_level) + '{')
         intend_level += 1
         i = 0
         for key, value in obj.items():
             key = self.json_str(str(key))
-            self.stack.append(self.line_intend(intend_level)+key+':')
+            self.stack.append(self.line_intend(intend_level) + key + ':')
             self.parse(value, intend_level)
-            if i != len(obj.items())-1:
+            if i != len(obj.items()) - 1:
                 # 这个处理是为了防止最后一对kv后面还有个逗号，这样会造成json.load()函数无法读取
                 self.stack.append(',')
             i += 1
-        self.stack.append(self.line_intend(intend_level-1)+'}')
+        self.stack.append(self.line_intend(intend_level - 1) + '}')
 
     def parse_list(self, obj=None, intend_level=0):
         if intend_level == 0:
             self.stack.append('[')
         else:
-            self.stack.append(self.line_intend(intend_level)+'[')
+            self.stack.append(self.line_intend(intend_level) + '[')
         intend_level += 1
         for i, item in zip(range(0, len(obj)), obj):
             self.parse(item, intend_level)
-            if i != len(obj)-1:
+            if i != len(obj) - 1:
                 self.stack.append(',')
-        self.stack.append(self.line_intend(intend_level-1)+']')
+        self.stack.append(self.line_intend(intend_level - 1) + ']')
 
     def parse(self, obj, intend_level=0):
         if obj is None:
@@ -85,7 +85,7 @@ class JsonFormatter:
         with open(res_file, 'w', encoding=self.encoding) as f:
             f.write(res)
 
-if __name__ == "__main__":
-    jf = JsonFormatter(name="json.txt")
-    jf.render()
 
+if __name__ == "__main__":
+    jf = JsonFormatter(name="test_json.txt")
+    jf.render()

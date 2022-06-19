@@ -1,8 +1,8 @@
 class MyQueue(object):
     def __init__(self):
-        self.q=[]
+        self.q = []
 
-    def push(self,x):
+    def push(self, x):
         self.q.append(x)
 
     def peek(self):
@@ -20,22 +20,22 @@ class MyQueue(object):
 
 class MyStack(object):
     def __init__(self):
-        self.q=MyQueue()
+        self.q = MyQueue()
 
-    def push(self,x):
+    def push(self, x):
         self.q.push(x)
 
     def pop(self):
-        length=self.q.size()
-        for i in range(length-1):
+        length = self.q.size()
+        for i in range(length - 1):
             self.q.push(self.q.pop())
         return self.q.pop()
-    
+
     def top(self):
-        length=self.q.size()
-        t=-1
+        length = self.q.size()
+        t = -1
         for i in range(length):
-            t=self.q.pop()
+            t = self.q.pop()
             self.q.push(t)
         return t
 
@@ -43,10 +43,13 @@ class MyStack(object):
         return self.q.empty()
 
 
-if __name__=="__main__":
-    stack=MyStack()
+if __name__ == "__main__":
+    stack = MyStack()
     stack.push(1)
     stack.push(2)
-    print stack.pop()
-    print stack.top()
-    print stack.empty()
+    print
+    stack.pop()
+    print
+    stack.top()
+    print
+    stack.empty()

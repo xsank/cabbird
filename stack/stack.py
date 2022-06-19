@@ -1,6 +1,6 @@
 class Stack:
     def __init__(self):
-        self.items=[]
+        self.items = []
 
     def __iter__(self):
         for item in self.items:
@@ -9,7 +9,7 @@ class Stack:
     def is_empty(self):
         return not self.items
 
-    def push(self,item):
+    def push(self, item):
         self.items.append(item)
 
     def pop(self):
@@ -32,40 +32,39 @@ class Stack:
 
 
 class Node:
-    def __init__(self,value=None):
-        self.value=value
-        self.next=None
+    def __init__(self, value=None):
+        self.value = value
+        self.next = None
 
 
 class LinkedStack:
     def __init__(self):
-        self.top=None
-        self._size=0
+        self.top = None
+        self._size = 0
 
     def __iter__(self):
-        tmp=self.top
+        tmp = self.top
         while tmp:
             yield tmp.value
-            tmp=tmp.next
-
+            tmp = tmp.next
 
     def is_empty(self):
         return not self.top
 
     def pop(self):
-        node=self.top
+        node = self.top
         if node:
-            self.top=node.next
-            self._size-=1
+            self.top = node.next
+            self._size -= 1
             return node.value
         else:
             raise Exception('Stack is empty!')
 
-    def push(self,value):
-        node=Node(value)
-        node.next=self.top
-        self.top=node
-        self._size+=1
+    def push(self, value):
+        node = Node(value)
+        node.next = self.top
+        self.top = node
+        self._size += 1
 
     def top(self):
         if self.is_empty():

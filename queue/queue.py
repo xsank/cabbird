@@ -1,11 +1,11 @@
 class Queue:
     def __init__(self):
-        self.items=[]
+        self.items = []
 
     def is_empty(self):
-        return len(self.items)==0
+        return len(self.items) == 0
 
-    def push(self,item):
+    def push(self, item):
         self.items.append(item)
 
     def pop(self):
@@ -22,34 +22,34 @@ class Queue:
 
 
 class Node:
-    def __init__(self,value=None):
-        self.value=value
-        self.next=None
+    def __init__(self, value=None):
+        self.value = value
+        self.next = None
 
 
 class LinkedQueue:
     def __init__(self):
-        self.front=None
-        self.back=None
-        self._size=0
+        self.front = None
+        self.back = None
+        self._size = 0
 
     def is_empty(self):
-        return self._size==0
+        return self._size == 0
 
-    def enqueue(self,value):
-        node=Node(value)
+    def enqueue(self, value):
+        node = Node(value)
         if self.front:
-            self.back.next=node
+            self.back.next = node
         else:
-            self.front=node
-        self.back=node
-        self._size+=1
+            self.front = node
+        self.back = node
+        self._size += 1
 
-    def dequeue(self,value):
+    def dequeue(self, value):
         if self.front:
-            value=self.front.value
-            self.front=self.front.next
-            self._size-=1
+            value = self.front.value
+            self.front = self.front.next
+            self._size -= 1
             return value
         raise Exception('Queue is empty!')
 

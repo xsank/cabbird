@@ -1,14 +1,13 @@
-
 def isValid(s):
-    pair_dict={
-        ')':'(',
-        ']':'[',
-        '}':'{'
+    pair_dict = {
+        ')': '(',
+        ']': '[',
+        '}': '{'
     }
-    stack=[]
+    stack = []
     for c in s:
-        if c=='}' or c==']' or c==')':
-            if stack and stack[-1]==pair_dict[c]:
+        if c == '}' or c == ']' or c == ')':
+            if stack and stack[-1] == pair_dict[c]:
                 stack.pop()
                 continue
             else:
@@ -17,7 +16,8 @@ def isValid(s):
     return not stack
 
 
-if __name__=="__main__":
-    print isValid("()[]{}")
-    print isValid("([)]")
-
+if __name__ == "__main__":
+    print
+    isValid("()[]{}")
+    print
+    isValid("([)]")

@@ -1,8 +1,6 @@
-
 def count_max_one(num=0):
-    sum=0
+    count = 0
     while num:
-        num&=num-1
-        sum+=1
-    return sum
-
+        num &= num - 1
+        count += 1
+    return count
