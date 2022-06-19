@@ -11,7 +11,5 @@ def detectCapitalUse(word):
 
 
 if __name__ == "__main__":
-    print
-    detectCapitalUse("USA")
-    print
-    detectCapitalUse("FlaG")
+    print(detectCapitalUse("USA"))
+    print(detectCapitalUse("FlaG"))

@@ -47,10 +47,7 @@ def ladderLength(beginWord, endWord, wordList):
 
 
 if __name__ == "__main__":
-    print
-    ladderLength("a", "c", ["a", "b", "c"])
-    print
-    ladderLength("red", "tax", ["ted", "tex", "red", "tax", "tad", "den", "rex", "pee"])
+    print(ladderLength("a", "c", ["a", "b", "c"]))
+    print(ladderLength("red", "tax", ["ted", "tex", "red", "tax", "tad", "den", "rex", "pee"]))
     # right answer :[["red","ted","tad","tax"],["red","ted","tex","tax"],["red","rex","tex","tax"]]
-    print
-    ladderLength("hit", "cog", ["hot", "dot", "dog", "lot", "log", "cog"])
+    print(ladderLength("hit", "cog", ["hot", "dot", "dog", "lot", "log", "cog"]))

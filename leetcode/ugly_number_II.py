@@ -19,15 +19,9 @@ def nthUglyNumber(n):
 
 
 if __name__ == "__main__":
-    print
-    nthUglyNumber(6)
-    print
-    nthUglyNumber(8)
-    print
-    nthUglyNumber(2)
-    print
-    nthUglyNumber(1)
-    print
-    nthUglyNumber(10)
-    print
-    nthUglyNumber(11)
+    print(nthUglyNumber(6))
+    print(nthUglyNumber(8))
+    print(nthUglyNumber(2))
+    print(nthUglyNumber(1))
+    print(nthUglyNumber(10))
+    print(nthUglyNumber(11))

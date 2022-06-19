@@ -25,5 +25,4 @@ def threeSumClosest(nums, target):
 
 
 if __name__ == "__main__":
-    print
-    threeSumClosest([-1, 2, 1, -4], 1)
+    print(threeSumClosest([-1, 2, 1, -4], 1))

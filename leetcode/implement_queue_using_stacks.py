@@ -23,15 +23,9 @@ if __name__ == "__main__":
     q = Queue()
     q.push(1)
     q.push(2)
-    print
-    q.peek()
-    print
-    q.pop()
-    print
-    q.empty()
-    print
-    q.peek()
-    print
-    q.pop()
-    print
-    q.empty()
+    print(q.peek())
+    print(q.pop())
+    print(q.empty())
+    print(q.peek())
+    print(q.pop())
+    print(q.empty())

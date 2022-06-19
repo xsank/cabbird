@@ -5,17 +5,10 @@ def isMatch(s, p):
 
 
 if __name__ == "__main__":
-    print
-    isMatch("aa", "a")
-    print
-    isMatch("aa", "aa")
-    print
-    isMatch("aaa", "aa")
-    print
-    isMatch("aa", "a*")
-    print
-    isMatch("aa", ".*")
-    print
-    isMatch("ab", ".*")
-    print
-    isMatch("aab", "c*a*b")
+    print(isMatch("aa", "a"))
+    print(isMatch("aa", "aa"))
+    print(isMatch("aaa", "aa"))
+    print(isMatch("aa", "a*"))
+    print(isMatch("aa", ".*"))
+    print(isMatch("ab", ".*"))
+    print(isMatch("aab", "c*a*b"))

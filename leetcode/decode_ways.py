@@ -16,19 +16,11 @@ def numDecodings(s):
 
 
 if __name__ == "__main__":
-    print
-    numDecodings('12')
-    print
-    numDecodings('0')
-    print
-    numDecodings('1')
-    print
-    numDecodings('120')
-    print
-    numDecodings('102')
-    print
-    numDecodings('123')
-    print
-    numDecodings('000')
-    print
-    numDecodings('1200')
+    print(numDecodings('12'))
+    print(numDecodings('0'))
+    print(numDecodings('1'))
+    print(numDecodings('120'))
+    print(numDecodings('102'))
+    print(numDecodings('123'))
+    print(numDecodings('000'))
+    print(numDecodings('1200'))

@@ -18,7 +18,5 @@ def addStrings(num1, num2):
 
 
 if __name__ == "__main__":
-    print
-    addStrings("896", "432546")
-    print
-    addStrings("1", "9")
+    print(addStrings("896", "432546"))
+    print(addStrings("1", "9"))

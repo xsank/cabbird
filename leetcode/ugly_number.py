@@ -11,13 +11,8 @@ def isUgly(num):
 
 
 if __name__ == "__main__":
-    print
-    isUgly(6)
-    print
-    isUgly(8)
-    print
-    isUgly(14)
-    print
-    isUgly(1)
-    print
-    isUgly(0)
+    print(isUgly(6))
+    print(isUgly(8))
+    print(isUgly(14))
+    print(isUgly(1))
+    print(isUgly(0))

@@ -23,9 +23,6 @@ def subsets(nums):
 
 
 if __name__ == "__main__":
-    print
-    subsets([1])
-    print
-    subsets([4, 1, 0])
-    print
-    subsets([1, 2, 2])
+    print(subsets([1]))
+    print(subsets([4, 1, 0]))
+    print(subsets([1, 2, 2]))

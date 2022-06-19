@@ -3,7 +3,5 @@ def isAnagram(s, t):
 
 
 if __name__ == "__main__":
-    print
-    isAnagram("anagram", "nagaram")
-    print
-    isAnagram("rat", "car")
+    print(isAnagram("anagram", "nagaram"))
+    print(isAnagram("rat", "car"))

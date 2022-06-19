@@ -29,5 +29,4 @@ def findAll(digits, cur, r, res):
 
 
 if __name__ == "__main__":
-    print
-    letterCombinations("23")
+    print(letterCombinations("23"))

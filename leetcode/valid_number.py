@@ -36,21 +36,12 @@ def isNumber(s):
 
 
 if __name__ == "__main__":
-    print
-    isNumber("0")
-    print
-    isNumber(" 0.1 ")
-    print
-    isNumber("abc")
-    print
-    isNumber(".3")
-    print
-    isNumber("1 a")
-    print
-    isNumber("2e10")
-    print
-    isNumber("2e+10")
-    print
-    isNumber("+2e10")
-    print
-    isNumber("+2e.1")
+    print(isNumber("0"))
+    print(isNumber(" 0.1 "))
+    print(isNumber("abc"))
+    print(isNumber(".3"))
+    print(isNumber("1 a"))
+    print(isNumber("2e10"))
+    print(isNumber("2e+10"))
+    print(isNumber("+2e10"))
+    print(isNumber("+2e.1"))

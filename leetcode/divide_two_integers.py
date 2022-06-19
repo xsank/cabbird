@@ -21,15 +21,9 @@ def divide(dividend, divisor):
 
 
 if __name__ == "__main__":
-    print
-    divide(10, 3)
-    print
-    divide(9, 3)
-    print
-    divide(9, 0)
-    print
-    divide(-2147483648, -1)
-    print
-    divide(9, -3)
-    print
-    divide(9, -4)
+    print(divide(10, 3))
+    print(divide(9, 3))
+    print(divide(9, 0))
+    print(divide(-2147483648, -1))
+    print(divide(9, -3))
+    print(divide(9, -4))

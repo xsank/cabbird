@@ -12,9 +12,6 @@ def generate(numRows):
 
 
 if __name__ == "__main__":
-    print
-    generate(5)
-    print
-    generate(1)
-    print
-    generate(0)
+    print(generate(5))
+    print(generate(1))
+    print(generate(0))

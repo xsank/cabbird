@@ -15,9 +15,6 @@ def countNumbersWithUniqueDigits(n):
 
 
 if __name__ == "__main__":
-    print
-    countNumbersWithUniqueDigits(2)
-    print
-    countNumbersWithUniqueDigits(3)
-    print
-    countNumbersWithUniqueDigits(4)
+    print(countNumbersWithUniqueDigits(2))
+    print(countNumbersWithUniqueDigits(3))
+    print(countNumbersWithUniqueDigits(4))

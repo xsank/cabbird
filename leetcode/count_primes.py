@@ -16,11 +16,7 @@ def countPrimes(n):
 
 
 if __name__ == "__main__":
-    print
-    countPrimes(10)
-    print
-    countPrimes(3)
-    print
-    countPrimes(2)
-    print
-    countPrimes(499979)
+    print(countPrimes(10))
+    print(countPrimes(3))
+    print(countPrimes(2))
+    print(countPrimes(499979))

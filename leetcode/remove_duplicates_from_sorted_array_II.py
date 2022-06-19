@@ -16,7 +16,5 @@ def removeDuplicates(nums):
 
 
 if __name__ == "__main__":
-    print
-    removeDuplicates([1, 1, 1, 2, 2, 3])
-    print
-    removeDuplicates([-1, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3])
+    print(removeDuplicates([1, 1, 1, 2, 2, 3]))
+    print(removeDuplicates([-1, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3]))

@@ -17,11 +17,7 @@ def nextGreaterElement(findNums, nums):
 
 
 if __name__ == "__main__":
-    print
-    nextGreaterElement([], [])
-    print
-    nextGreaterElement([4, 1, 2], [1, 3, 4, 2])
-    print
-    nextGreaterElement([2, 4], [1, 2, 3, 4])
-    print
-    nextGreaterElement([1, 3, 5, 2, 4, 7], [6, 5, 4, 3, 2, 1, 7])
+    print(nextGreaterElement([], []))
+    print(nextGreaterElement([4, 1, 2], [1, 3, 4, 2]))
+    print(nextGreaterElement([2, 4], [1, 2, 3, 4]))
+    print(nextGreaterElement([1, 3, 5, 2, 4, 7], [6, 5, 4, 3, 2, 1, 7]))

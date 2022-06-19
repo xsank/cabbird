@@ -24,5 +24,4 @@ def combinationSum3(k, n):
 
 
 if __name__ == "__main__":
-    print
-    combinationSum3(3, 9)
+    print(combinationSum3(3, 9))

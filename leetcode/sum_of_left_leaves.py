@@ -18,5 +18,4 @@ def sumOfLeftLeaves(root):
 if __name__ == "__main__":
     _tree = listToTree([1, 9, 30, None, None, 15, 7])
     printNode(_tree)
-    print
-    sumOfLeftLeaves(_tree)
+    print(sumOfLeftLeaves(_tree))

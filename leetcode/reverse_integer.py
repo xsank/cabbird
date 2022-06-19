@@ -11,15 +11,9 @@ def reverse(x):
 
 
 if __name__ == "__main__":
-    print
-    reverse(-2147483412)
-    print
-    reverse(10)
-    print
-    reverse(1534236469)
-    print
-    reverse(123)
-    print
-    reverse(4)
-    print
-    reverse(-123)
+    print(reverse(-2147483412))
+    print(reverse(10))
+    print(reverse(1534236469))
+    print(reverse(123))
+    print(reverse(4))
+    print(reverse(-123))

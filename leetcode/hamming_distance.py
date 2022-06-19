@@ -8,5 +8,4 @@ def hammingDistance(x, y):
 
 
 if __name__ == "__main__":
-    print
-    hammingDistance(1, 4)
+    print(hammingDistance(1, 4))

@@ -12,8 +12,7 @@ def list_leetcode(directory):
             filename = _file.split(".")[0]
             if filename:
                 index += 1
-                print
-                "%d. %s" % (index, _file.split(".")[0])
+                print("%d. %s" % (index, _file.split("."))[0])
 
 
 list_leetcode(LEETCODE_DIR)

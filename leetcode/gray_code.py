@@ -3,5 +3,4 @@ def grayCode(n):
 
 
 if __name__ == "__main__":
-    print
-    grayCode(2)
+    print(grayCode(2))

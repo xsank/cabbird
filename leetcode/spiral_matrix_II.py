@@ -31,11 +31,7 @@ def generateMatrix(n):
 
 
 if __name__ == "__main__":
-    print
-    generateMatrix(3)
-    print
-    generateMatrix(1)
-    print
-    generateMatrix(2)
-    print
-    generateMatrix(4)
+    print(generateMatrix(3))
+    print(generateMatrix(1))
+    print(generateMatrix(2))
+    print(generateMatrix(4))

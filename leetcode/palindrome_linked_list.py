@@ -27,17 +27,12 @@ def isPalindrome(head):
 
 if __name__ == "__main__":
     node = listToNode([1, 2, 3])
-    print
-    isPalindrome(node)
+    print(isPalindrome(node))
     node = listToNode([1, 2, 3, 2])
-    print
-    isPalindrome(node)
+    print(isPalindrome(node))
     node = listToNode([1, 2, 3, 3, 2, 1])
-    print
-    isPalindrome(node)
+    print(isPalindrome(node))
     node = listToNode([1, 1, 2, 1])
-    print
-    isPalindrome(node)
+    print(isPalindrome(node))
     node = listToNode([1])
-    print
-    isPalindrome(node)
+    print(isPalindrome(node))

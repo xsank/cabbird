@@ -26,11 +26,8 @@ def dfs(s, start, dict, ws, res, dp):
 
 
 if __name__ == "__main__":
-    print
-    wordBreak("abc", ["ab", "c"])
-    print
-    wordBreak("catsanddog", ["cat", "cats", "and", "sand", "dog"])
-    print
-    wordBreak(
+    print(wordBreak("abc", ["ab", "c"]))
+    print(wordBreak("catsanddog", ["cat", "cats", "and", "sand", "dog"]))
+    print(wordBreak(
         "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-        ["a", "aa", "aaa", "aaaa", "aaaaa", "aaaaaa", "aaaaaaa", "aaaaaaaa", "aaaaaaaaa", "aaaaaaaaaa"])
+        ["a", "aa", "aaa", "aaaa", "aaaaa", "aaaaaa", "aaaaaaa", "aaaaaaaa", "aaaaaaaaa", "aaaaaaaaaa"]))

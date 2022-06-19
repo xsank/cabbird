@@ -3,5 +3,4 @@ def minMoves(nums):
 
 
 if __name__ == "__main__":
-    print
-    minMoves([1, 2, 3])
+    print(minMoves([1, 2, 3]))

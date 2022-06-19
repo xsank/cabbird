@@ -12,9 +12,6 @@ def constructRectangle(area):
 
 
 if __name__ == "__main__":
-    print
-    constructRectangle(4)
-    print
-    constructRectangle(1)
-    print
-    constructRectangle(5)
+    print(constructRectangle(4))
+    print(constructRectangle(1))
+    print(constructRectangle(5))

@@ -11,13 +11,8 @@ def convertToTitle(num):
 
 
 if __name__ == "__main__":
-    print
-    convertToTitle(1)
-    print
-    convertToTitle(26)
-    print
-    convertToTitle(28)
-    print
-    convertToTitle(52)
-    print
-    convertToTitle(27)
+    print(convertToTitle(1))
+    print(convertToTitle(26))
+    print(convertToTitle(28))
+    print(convertToTitle(52))
+    print(convertToTitle(27))

@@ -12,9 +12,6 @@ def firstUniqChar(s):
 
 
 if __name__ == "__main__":
-    print
-    firstUniqChar("leetcode")
-    print
-    firstUniqChar("oo")
-    print
-    firstUniqChar("loveleetcode")
+    print(firstUniqChar("leetcode"))
+    print(firstUniqChar("oo"))
+    print(firstUniqChar("loveleetcode"))

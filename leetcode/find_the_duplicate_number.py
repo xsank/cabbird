@@ -16,5 +16,4 @@ def findDuplicate(nums):
 
 
 if __name__ == "__main__":
-    print
-    findDuplicate([1, 2, 2])
+    print(findDuplicate([1, 2, 2]))

@@ -20,7 +20,5 @@ class Solution(object):
 
 if __name__ == "__main__":
     solution = Solution([1, 2, 3])
-    print
-    solution.reset()
-    print
-    solution.shuffle()
+    print(solution.reset())
+    print(solution.shuffle())

@@ -15,5 +15,4 @@ def firstBadVersion(n):
 
 
 if __name__ == "__main__":
-    print
-    firstBadVersion(2126753390)
+    print(firstBadVersion(2126753390))

@@ -13,5 +13,4 @@ def fizzBuzz(n):
 
 
 if __name__ == "__main__":
-    print
-    fizzBuzz(15)
+    print(fizzBuzz(15))

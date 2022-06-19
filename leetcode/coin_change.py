@@ -10,15 +10,9 @@ def coinChange(coins, amount):
 
 
 if __name__ == "__main__":
-    print
-    coinChange([1, 2, 5], 11)
-    print
-    coinChange([2], 3)
-    print
-    coinChange([], 1)
-    print
-    coinChange([2], 0)
-    print
-    coinChange([2], 1)
-    print
-    coinChange([2147483647], 2)
+    print(coinChange([1, 2, 5], 11))
+    print(coinChange([2], 3))
+    print(coinChange([], 1))
+    print(coinChange([2], 0))
+    print(coinChange([2], 1))
+    print(coinChange([2147483647], 2))

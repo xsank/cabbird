@@ -18,5 +18,4 @@ def genTreePaths(res, tl, root):
 
 if __name__ == "__main__":
     root = listToTree([1, 2, 3, 4])
-    print
-    binaryTreePaths(root)
+    print(binaryTreePaths(root))

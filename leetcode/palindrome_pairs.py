@@ -39,7 +39,5 @@ def isPalindrome(s):
 
 
 if __name__ == "__main__":
-    print
-    palindromePairs(["bat", "tab", "cat"])
-    print
-    palindromePairs(["abcd", "dcba", "lls", "s", "sssll"])
+    print(palindromePairs(["bat", "tab", "cat"]))
+    print(palindromePairs(["abcd", "dcba", "lls", "s", "sssll"]))

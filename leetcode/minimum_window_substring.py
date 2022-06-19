@@ -24,5 +24,4 @@ def minWindow(s, t):
 
 
 if __name__ == "__main__":
-    print
-    minWindow("ADOBECODEBANC", "ABC")
+    print(minWindow("ADOBECODEBANC", "ABC"))

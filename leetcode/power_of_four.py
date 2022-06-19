@@ -11,11 +11,7 @@ def isPowerOfFour(num):
 
 
 if __name__ == "__main__":
-    print
-    isPowerOfFour(78)
-    print
-    isPowerOfFour(4)
-    print
-    isPowerOfFour(1)
-    print
-    isPowerOfFour(64)
+    print(isPowerOfFour(78))
+    print(isPowerOfFour(4))
+    print(isPowerOfFour(1))
+    print(isPowerOfFour(64))

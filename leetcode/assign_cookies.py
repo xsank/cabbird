@@ -10,9 +10,6 @@ def findContentChildren(g, s):
 
 
 if __name__ == "__main__":
-    print
-    findContentChildren([1, 2, 3], [1, 1])
-    print
-    findContentChildren([1, 2], [1, 2, 3])
-    print
-    findContentChildren([10, 9, 8, 7], [5, 6, 7, 8])
+    print(findContentChildren([1, 2, 3], [1, 1]))
+    print(findContentChildren([1, 2], [1, 2, 3]))
+    print(findContentChildren([10, 9, 8, 7], [5, 6, 7, 8]))

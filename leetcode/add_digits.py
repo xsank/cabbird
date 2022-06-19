@@ -9,7 +9,5 @@ def addDigits(num):
 
 
 if __name__ == "__main__":
-    print
-    addDigits(38)
-    print
-    addDigits(540)
+    print(addDigits(38))
+    print(addDigits(540))

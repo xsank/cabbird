@@ -14,15 +14,9 @@ def isPalindrome(x):
 
 
 if __name__ == "__main__":
-    print
-    isPalindrome(121)
-    print
-    isPalindrome(1221)
-    print
-    isPalindrome(11)
-    print
-    isPalindrome(-1)
-    print
-    isPalindrome(1)
-    print
-    isPalindrome(12)
+    print(isPalindrome(121))
+    print(isPalindrome(1221))
+    print(isPalindrome(11))
+    print(isPalindrome(-1))
+    print(isPalindrome(1))
+    print(isPalindrome(12))

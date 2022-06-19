@@ -47,9 +47,6 @@ if __name__ == "__main__":
     stack = MyStack()
     stack.push(1)
     stack.push(2)
-    print
-    stack.pop()
-    print
-    stack.top()
-    print
-    stack.empty()
+    print(stack.pop())
+    print(stack.top())
+    print(stack.empty())

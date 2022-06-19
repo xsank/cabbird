@@ -5,5 +5,4 @@ def reverseWords(s):
 
 
 if __name__ == "__main__":
-    print
-    reverseWords("the sky is blue")
+    print(reverseWords("the sky is blue"))

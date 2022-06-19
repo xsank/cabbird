@@ -22,5 +22,4 @@ if __name__ == "__main__":
     head.next = ListNode(2)
     head.next.next = ListNode(3)
     solution = Solution(head)
-    print
-    solution.getRandom()
+    print(solution.getRandom())

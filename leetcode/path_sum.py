@@ -11,8 +11,6 @@ def hasPathSum(root, sum):
 
 if __name__ == "__main__":
     node = listToTree([1, 2, 2, 4, 3, 4, 3])
-    print
-    hasPathSum(node, 5)
+    print(hasPathSum(node, 5))
     node = listToTree([1, 2])
-    print
-    hasPathSum(node, 1)
+    print(hasPathSum(node, 1))

@@ -29,9 +29,6 @@ def isPalindrome(s):
 
 
 if __name__ == "__main__":
-    print
-    isPalindrome("A man, a plan, a canal: Panama")
-    print
-    isPalindrome("race a car")
-    print
-    isPalindrome("")
+    print(isPalindrome("A man, a plan, a canal: Panama"))
+    print(isPalindrome("race a car"))
+    print(isPalindrome(""))

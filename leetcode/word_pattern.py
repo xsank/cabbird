@@ -4,13 +4,8 @@ def wordPattern(pattern, str):
 
 
 if __name__ == "__main__":
-    print
-    wordPattern("abba", "dog cat cat dog")
-    print
-    wordPattern("abba", "dog cat cat fish")
-    print
-    wordPattern("aaaa", "dog cat cat dog")
-    print
-    wordPattern("abba", "dog dog dog dog")
-    print
-    wordPattern("jquery", "jquery")
+    print(wordPattern("abba", "dog cat cat dog"))
+    print(wordPattern("abba", "dog cat cat fish"))
+    print(wordPattern("aaaa", "dog cat cat dog"))
+    print(wordPattern("abba", "dog dog dog dog"))
+    print(wordPattern("jquery", "jquery"))

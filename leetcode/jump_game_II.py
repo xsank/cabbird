@@ -10,5 +10,4 @@ def jump(nums):
 
 
 if __name__ == "__main__":
-    print
-    jump([2, 3, 1, 1, 4])
+    print(jump([2, 3, 1, 1, 4]))

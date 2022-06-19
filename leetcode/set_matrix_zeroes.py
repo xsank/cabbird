@@ -20,11 +20,7 @@ def setZeroes(matrix):
 
 
 if __name__ == "__main__":
-    print
-    setZeroes([])
-    print
-    setZeroes([[1]])
-    print
-    setZeroes([[1, 2], [0, 3]])
-    print
-    setZeroes([[1, 2, 3], [4, 0, 6], [7, 8, 9]])
+    print(setZeroes([]))
+    print(setZeroes([[1]]))
+    print(setZeroes([[1, 2], [0, 3]]))
+    print(setZeroes([[1, 2, 3], [4, 0, 6], [7, 8, 9]]))

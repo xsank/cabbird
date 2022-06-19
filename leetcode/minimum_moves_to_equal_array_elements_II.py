@@ -16,11 +16,7 @@ def _minMoves2(nums):
 
 
 if __name__ == "__main__":
-    print
-    minMoves2([1, 2, 3])
-    print
-    minMoves2([-1, 2, 3])
-    print
-    minMoves2([2, 2, 3])
-    print
-    minMoves2([3, 3, 3])
+    print(minMoves2([1, 2, 3]))
+    print(minMoves2([-1, 2, 3]))
+    print(minMoves2([2, 2, 3]))
+    print(minMoves2([3, 3, 3]))

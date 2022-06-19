@@ -13,5 +13,4 @@ def minDepth(root):
 
 if __name__ == "__main__":
     root = listToTree([1, 2, 3, 4, 5, 6])
-    print
-    minDepth(root)
+    print(minDepth(root))

@@ -3,7 +3,5 @@ def canWinNim(n):
 
 
 if __name__ == "__main__":
-    print
-    canWinNim(4)
-    print
-    canWinNim(5)
+    print(canWinNim(4))
+    print(canWinNim(5))

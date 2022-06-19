@@ -150,13 +150,8 @@ if __name__ == "__main__":
          -9, 8, 4, 7, -7, 1, 7, 2, 8, -1, -9, 4, 2, -3, 4, 1, 1, 0, -9, 6, 6, -5, 3, -7, 6, 6, -8, 1, -1, 8, -9, 2, -7,
          -2, -3, -1, -8, -2, -8, -4, -3, 2, 5, -9, 7, -5, -3, -3, -5, 9, -1, -1, 7, 8, 3, -4, 6, -4, 9, 7, -9, -4, 3,
          -7])
-    print
-    numArray.sumRange(0, 1)
-    print
-    numArray.sumRange(1, 2)
-    print
-    numArray.sumRange(0, 2)
-    print
-    numArray.sumRange(2, 5)
-    print
-    numArray.sumRange(0, 5)
+    print(numArray.sumRange(0, 1))
+    print(numArray.sumRange(1, 2))
+    print(numArray.sumRange(0, 2))
+    print(numArray.sumRange(2, 5))
+    print(numArray.sumRange(0, 5))

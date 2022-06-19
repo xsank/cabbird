@@ -13,11 +13,7 @@ def largestRectangleArea(heights):
 
 
 if __name__ == "__main__":
-    print
-    largestRectangleArea([2, 1, 5, 6, 2, 3, 1, 1, 1, 1, 1])
-    print
-    largestRectangleArea([2, 1, 5, 6, 2, 3])
-    print
-    largestRectangleArea([1, 2, 3, 4, 5, 6])
-    print
-    largestRectangleArea([6, 5, 4, 3, 2, 1])
+    print(largestRectangleArea([2, 1, 5, 6, 2, 3, 1, 1, 1, 1, 1]))
+    print(largestRectangleArea([2, 1, 5, 6, 2, 3]))
+    print(largestRectangleArea([1, 2, 3, 4, 5, 6]))
+    print(largestRectangleArea([6, 5, 4, 3, 2, 1]))

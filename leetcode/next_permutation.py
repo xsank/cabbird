@@ -23,13 +23,8 @@ def reverse(nums, start, end):
 
 
 if __name__ == "__main__":
-    print
-    nextPermutation([1, 2, 3])
-    print
-    nextPermutation([3, 2, 1])
-    print
-    nextPermutation([1, 1, 4])
-    print
-    nextPermutation([1, 3, 2])
-    print
-    nextPermutation([2, 3, 1])
+    print(nextPermutation([1, 2, 3]))
+    print(nextPermutation([3, 2, 1]))
+    print(nextPermutation([1, 1, 4]))
+    print(nextPermutation([1, 3, 2]))
+    print(nextPermutation([2, 3, 1]))

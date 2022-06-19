@@ -15,14 +15,10 @@ def numberOfArithmeticSlices(A):
 
 
 if __name__ == "__main__":
-    print
-    numberOfArithmeticSlices([1, 2, 3, 4])
-    print
-    numberOfArithmeticSlices([1, 2, 3])
-    print
-    numberOfArithmeticSlices([1, 2, 4])
-    print
-    numberOfArithmeticSlices(
+    print(numberOfArithmeticSlices([1, 2, 3, 4]))
+    print(numberOfArithmeticSlices([1, 2, 3]))
+    print(numberOfArithmeticSlices([1, 2, 4]))
+    print(numberOfArithmeticSlices(
         [27, 2, -32, 38, -21, 27, -44, 34, -31, -5, -2, -20, 7, -31, 14, 5, 30, -12, -23, -10, 13, 28, -19, 21, -45, 15,
          -33, 16, 47, -23, -25, -22, 45, 43, -4, 14, -46, 36, 11, -21, -19, 35, 47, 39, 29, -41, -9, -34, 29, -11, -43,
          -18, 45, -5, 12, 0, 14, -41, 48, -11, 10, 22, -15, 12, -35, 42, 5, -2, -8, 31, -23, 45, -17, 25, -21, -12, -6,
@@ -218,8 +214,6 @@ if __name__ == "__main__":
          -9, 31, 15, -25, -35, -31, -35, -27, -16, -50, -43, -18, 8, 43, 1, 42, 29, -26, -12, -41, -27, 22, -15, -25,
          -34, -22, 35, -50, -16, 47, 2, -2, 31, -13, -36, 46, 7, -17, -24, 26, 4, 41, 27, -42, 35, 40, 9, -47, 25, 20,
          -16, -43, -34, -28, -47, -35, 8, 22, -12, 45, 33, 45, 35, 5, 11, 12, -36, -1, 10, 25, -38, -29, -11, 39, -5,
-         -45, 45, -18, -43, 9, -3, -7, -26, -12, -11, 8, -37, 2, 33, -15])
-    print
-    numberOfArithmeticSlices([1, 2, 3, 8, 9, 10])
-    print
-    numberOfArithmeticSlices([1, 2, 3, 4, 5, 6])
+         -45, 45, -18, -43, 9, -3, -7, -26, -12, -11, 8, -37, 2, 33, -15]))
+    print(numberOfArithmeticSlices([1, 2, 3, 8, 9, 10]))
+    print(numberOfArithmeticSlices([1, 2, 3, 4, 5, 6]))

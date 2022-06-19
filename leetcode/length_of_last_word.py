@@ -6,5 +6,4 @@ def lengthOfLastWord(s):
 
 
 if __name__ == "__main__":
-    print
-    lengthOfLastWord("hello world")
+    print(lengthOfLastWord("hello world"))

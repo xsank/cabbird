@@ -3,5 +3,4 @@ def addBinary(a, b):
 
 
 if __name__ == "__main__":
-    print
-    addBinary('11', '1')
+    print(addBinary('11', '1'))

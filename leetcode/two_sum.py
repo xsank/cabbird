@@ -20,5 +20,4 @@ def twoSum(num, target):
 
 
 if __name__ == "__main__":
-    print
-    twoSum([0, 4, 3, 0], 0)
+    print(twoSum([0, 4, 3, 0], 0))

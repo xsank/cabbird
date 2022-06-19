@@ -28,13 +28,8 @@ def totalNQueens(n):
 
 
 if __name__ == "__main__":
-    print
-    totalNQueens(1)
-    print
-    totalNQueens(2)
-    print
-    totalNQueens(3)
-    print
-    totalNQueens(4)
-    print
-    totalNQueens(8)
+    print(totalNQueens(1))
+    print(totalNQueens(2))
+    print(totalNQueens(3))
+    print(totalNQueens(4))
+    print(totalNQueens(8))

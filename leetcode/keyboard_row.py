@@ -14,7 +14,5 @@ def findWords(words):
 
 
 if __name__ == "__main__":
-    print
-    findWords(["Hello", "Alaska", "Dad", "Peace"])
-    print
-    findWords(["Aasdfghjkl", "Qwertyuiop", "zZxcvbnm"])
+    print(findWords(["Hello", "Alaska", "Dad", "Peace"]))
+    print(findWords(["Aasdfghjkl", "Qwertyuiop", "zZxcvbnm"]))

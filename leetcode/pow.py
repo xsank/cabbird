@@ -14,13 +14,8 @@ def myPow(x, n):
 
 
 if __name__ == "__main__":
-    print
-    myPow(2, 3)
-    print
-    myPow(2, 2)
-    print
-    myPow(2, 1)
-    print
-    myPow(2, 0)
-    print
-    myPow(2, -1)
+    print(myPow(2, 3))
+    print(myPow(2, 2))
+    print(myPow(2, 1))
+    print(myPow(2, 0))
+    print(myPow(2, -1))

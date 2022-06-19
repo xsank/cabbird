@@ -14,7 +14,5 @@ def lexicalOrder(n):
 
 
 if __name__ == "__main__":
-    print
-    lexicalOrder(13)
-    print
-    lexicalOrder(5000)
+    print(lexicalOrder(13))
+    print(lexicalOrder(5000))

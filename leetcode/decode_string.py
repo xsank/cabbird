@@ -21,11 +21,7 @@ def decodeString(s):
 
 
 if __name__ == "__main__":
-    print
-    decodeString("3[a]2[bc]")
-    print
-    decodeString("3[a2[c]]")
-    print
-    decodeString("2[abc]3[cd]ef")
-    print
-    decodeString("100[leetcode]")
+    print(decodeString("3[a]2[bc]"))
+    print(decodeString("3[a2[c]]"))
+    print(decodeString("2[abc]3[cd]ef"))
+    print(decodeString("100[leetcode]"))

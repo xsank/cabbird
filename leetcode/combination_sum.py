@@ -19,5 +19,4 @@ def combinationSum(candidates, target):
 
 
 if __name__ == "__main__":
-    print
-    combinationSum([1, 2, 3, 6, 7], 7)
+    print(combinationSum([1, 2, 3, 6, 7], 7))

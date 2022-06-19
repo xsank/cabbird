@@ -26,5 +26,4 @@ def summaryRanges(nums):
 
 if __name__ == "__main__":
     l = [0, 1, 2, 4, 5, 6]
-    print
-    summaryRanges(l)
+    print(summaryRanges(l))

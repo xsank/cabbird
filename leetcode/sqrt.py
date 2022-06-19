@@ -10,11 +10,7 @@ def mySqrt(x):
 
 
 if __name__ == "__main__":
-    print
-    mySqrt(0)
-    print
-    mySqrt(1)
-    print
-    mySqrt(7)
-    print
-    mySqrt(9)
+    print(mySqrt(0))
+    print(mySqrt(1))
+    print(mySqrt(7))
+    print(mySqrt(9))

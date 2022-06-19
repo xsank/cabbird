@@ -12,9 +12,6 @@ def climbStairs(n):
 
 
 if __name__ == "__main__":
-    print
-    climbStairs(10)
-    print
-    climbStairs(1)
-    print
-    climbStairs(2)
+    print(climbStairs(10))
+    print(climbStairs(1))
+    print(climbStairs(2))

@@ -22,12 +22,10 @@ def minimumTotal(triangle):
 
 
 if __name__ == "__main__":
-    print
-    minimumTotal([
+    print(minimumTotal([
         [2],
         [3, 4],
         [6, 5, 7],
         [4, 1, 8, 3]
-    ])
-    print
-    minimumTotal([[-1], [2, 3], [1, -1, -3]])
+    ]))
+    print(minimumTotal([[-1], [2, 3], [1, -1, -3]]))

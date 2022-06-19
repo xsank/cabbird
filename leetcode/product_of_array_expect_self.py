@@ -13,5 +13,4 @@ def productExceptSelf(nums):
 
 
 if __name__ == "__main__":
-    print
-    productExceptSelf([1, 2, 3, 4])
+    print(productExceptSelf([1, 2, 3, 4]))

@@ -10,13 +10,8 @@ def plusOne(digits):
 
 
 if __name__ == "__main__":
-    print
-    plusOne([9, 9, 9, 9])
-    print
-    plusOne([1, 9, 9, 9, 9])
-    print
-    plusOne([1, 9, 9, 9, 8])
-    print
-    plusOne([1])
-    print
-    plusOne([1, 9, 9, 2, 9])
+    print(plusOne([9, 9, 9, 9]))
+    print(plusOne([1, 9, 9, 9, 9]))
+    print(plusOne([1, 9, 9, 9, 8]))
+    print(plusOne([1]))
+    print(plusOne([1, 9, 9, 2, 9]))

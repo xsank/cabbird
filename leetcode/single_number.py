@@ -6,5 +6,4 @@ def singleNumber(nums):
 
 
 if __name__ == "__main__":
-    print
-    singleNumber([1, 1, 2, 2, 3])
+    print(singleNumber([1, 1, 2, 2, 3]))

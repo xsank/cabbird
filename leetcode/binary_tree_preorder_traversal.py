@@ -16,5 +16,4 @@ def preTravel(res, root):
 
 if __name__ == "__main__":
     root = listToTree([1, 2, 3])
-    print
-    preorderTraversal(root)
+    print(preorderTraversal(root))

@@ -14,9 +14,6 @@ def multiply(num1, num2):
 
 
 if __name__ == "__main__":
-    print
-    multiply("99", "11")
-    print
-    multiply("12345", "1")
-    print
-    multiply("12345", "54321")
+    print(multiply("99", "11"))
+    print(multiply("12345", "1"))
+    print(multiply("12345", "54321"))

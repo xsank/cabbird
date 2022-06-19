@@ -4,17 +4,14 @@ def kthSmallest(matrix, k):
 
 
 if __name__ == "__main__":
-    print
-    kthSmallest([
+    print(kthSmallest([
         [1, 5, 9],
         [10, 11, 13],
         [12, 13, 15]
-    ], 8)
-    print
-    kthSmallest([
+    ], 8))
+    print(kthSmallest([
         [1, 5, 9],
         [10, 11, 13],
         [12, 13, 15]
-    ], 4)
-    print
-    kthSmallest([[1]], 1)
+    ], 4))
+    print(kthSmallest([[1]], 1))

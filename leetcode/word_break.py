@@ -27,29 +27,18 @@ def wordBreak(s, wordDict):
                 tr = True
                 break
         dp.append(tr)
-    print
-    dp
     return dp[-1]
 
 
 if __name__ == "__main__":
-    print
-    wordBreak("ccbb", ["bc", "cb"])
-    print
-    wordBreak("cars", ["car", "ca", "rs"])
-    print
-    wordBreak("bb", ["a", "b", "bbb", "bbbb"])
-    print
-    wordBreak("aaaaaaa", ["aaaa", "aaa"])
-    print
-    wordBreak("leetcode", ["leet", "code"])
-    print
-    wordBreak("leetcod", ["leet", "code"])
-    print
-    wordBreak("abcd", ["a", "abc", "b", "cd"])
-    print
-    wordBreak("abcd", ["abc", "cd", "b"])
-    print
-    wordBreak(
+    print(wordBreak("ccbb", ["bc", "cb"]))
+    print(wordBreak("cars", ["car", "ca", "rs"]))
+    print(wordBreak("bb", ["a", "b", "bbb", "bbbb"]))
+    print(wordBreak("aaaaaaa", ["aaaa", "aaa"]))
+    print(wordBreak("leetcode", ["leet", "code"]))
+    print(wordBreak("leetcod", ["leet", "code"]))
+    print(wordBreak("abcd", ["a", "abc", "b", "cd"]))
+    print(wordBreak("abcd", ["abc", "cd", "b"]))
+    print(wordBreak(
         "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab",
-        ["a", "aa", "aaa", "aaaa", "aaaaa", "aaaaaa", "aaaaaaa", "aaaaaaaa", "aaaaaaaaa", "aaaaaaaaaa"])
+        ["a", "aa", "aaa", "aaaa", "aaaaa", "aaaaaa", "aaaaaaa", "aaaaaaaa", "aaaaaaaaa", "aaaaaaaaaa"]))

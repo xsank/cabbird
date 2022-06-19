@@ -14,11 +14,7 @@ def maxProfit(prices):
 
 
 if __name__ == "__main__":
-    print
-    maxProfit([])
-    print
-    maxProfit([1, 2])
-    print
-    maxProfit([7, 1, 5, 3, 6, 4])
-    print
-    maxProfit([7, 6, 4, 3, 1])
+    print(maxProfit([]))
+    print(maxProfit([1, 2]))
+    print(maxProfit([7, 1, 5, 3, 6, 4]))
+    print(maxProfit([7, 6, 4, 3, 1]))

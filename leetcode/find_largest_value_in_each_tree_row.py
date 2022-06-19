@@ -17,5 +17,4 @@ def dfs(root, level, _map):
 
 if __name__ == "__main__":
     root = listToTree([1, 2, 3])
-    print
-    largestValues(root)
+    print(largestValues(root))

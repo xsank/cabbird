@@ -3,9 +3,6 @@ def isPowerOfTwo(n):
 
 
 if __name__ == "__main__":
-    print
-    isPowerOfTwo(8)
-    print
-    isPowerOfTwo(0)
-    print
-    isPowerOfTwo(6)
+    print(isPowerOfTwo(8))
+    print(isPowerOfTwo(0))
+    print(isPowerOfTwo(6))

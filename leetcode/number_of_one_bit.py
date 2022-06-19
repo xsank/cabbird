@@ -7,5 +7,4 @@ def hammingWeight(n):
 
 
 if __name__ == "__main__":
-    print
-    hammingWeight(3)
+    print(hammingWeight(3))

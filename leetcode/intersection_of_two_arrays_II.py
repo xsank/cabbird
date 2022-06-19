@@ -8,7 +8,5 @@ def intersect(nums1, nums2):
 
 
 if __name__ == "__main__":
-    print
-    intersect([1, 2, 2, 1], [2, 2])
-    print
-    intersect([1, 2, 2, 1], [2])
+    print(intersect([1, 2, 2, 1], [2, 2]))
+    print(intersect([1, 2, 2, 1], [2]))

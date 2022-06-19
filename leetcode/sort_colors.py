@@ -12,9 +12,6 @@ def sortColors(nums):
 
 
 if __name__ == "__main__":
-    print
-    sortColors([0, 0, 0, 1, 1, 1, 2, 2, 2, 0, 0])
-    print
-    sortColors([])
-    print
-    sortColors([0])
+    print(sortColors([0, 0, 0, 1, 1, 1, 2, 2, 2, 0, 0]))
+    print(sortColors([]))
+    print(sortColors([0]))

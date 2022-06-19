@@ -25,35 +25,26 @@ def spiralOrder(matrix):
 
 
 if __name__ == "__main__":
-    print
-    spiralOrder([
+    print(spiralOrder([
         [1, 2, 3],
         [4, 5, 6],
         [7, 8, 9]
-    ])
-    print
-    spiralOrder([])
-    print
-    spiralOrder([[1]])
-    print
-    spiralOrder([[1, 2]])
-    print
-    spiralOrder([
+    ]))
+    print(spiralOrder([]))
+    print(spiralOrder([[1]]))
+    print(spiralOrder([[1, 2]]))
+    print(spiralOrder([
         [1, 2],
         [3, 4]
-    ])
-    print
-    spiralOrder([
+    ]))
+    print(spiralOrder([
         [7],
         [9],
         [6]
-    ])
-    print
-    spiralOrder([
+    ]))
+    print(spiralOrder([
         [7],
         [9],
-    ])
-    print
-    spiralOrder([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
-    print
-    spiralOrder([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]])
+    ]))
+    print(spiralOrder([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]]))
+    print(spiralOrder([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]))

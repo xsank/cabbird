@@ -19,8 +19,6 @@ def genPath(total, path, root, _sum):
 
 if __name__ == "__main__":
     node = listToTree([1, 2, 2, 4, 3, 4, 3])
-    print
-    PathSum(node, 5)
+    print(PathSum(node, 5))
     node = listToTree([1, 2, 2])
-    print
-    PathSum(node, 3)
+    print(PathSum(node, 3))

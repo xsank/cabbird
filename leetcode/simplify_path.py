@@ -14,17 +14,10 @@ def simplifyPath(path):
 
 
 if __name__ == "__main__":
-    print
-    simplifyPath("/home/")
-    print
-    simplifyPath("/a/./b/../../c/")
-    print
-    simplifyPath("/../")
-    print
-    simplifyPath("/home//foo/")
-    print
-    simplifyPath("/home/foo/hello")
-    print
-    simplifyPath("/")
-    print
-    simplifyPath("/home/foo/.ssh/../.ssh2/authorized_keys/")
+    print(simplifyPath("/home/"))
+    print(simplifyPath("/a/./b/../../c/"))
+    print(simplifyPath("/../"))
+    print(simplifyPath("/home//foo/"))
+    print(simplifyPath("/home/foo/hello"))
+    print(simplifyPath("/"))
+    print(simplifyPath("/home/foo/.ssh/../.ssh2/authorized_keys/"))

@@ -32,5 +32,4 @@ def levelTravel(total, root, level):
 
 if __name__ == "__main__":
     node = listToTree([1, 2, 2, 4, 3, 4, 3])
-    print
-    levelOrder(node)
+    print(levelOrder(node))

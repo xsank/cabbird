@@ -16,9 +16,6 @@ def canConstruct(ransomNote, magazine):
 
 
 if __name__ == "__main__":
-    print
-    canConstruct("a", "b")
-    print
-    canConstruct("aa", "ab")
-    print
-    canConstruct("aa", "aab")
+    print(canConstruct("a", "b"))
+    print(canConstruct("aa", "ab"))
+    print(canConstruct("aa", "aab"))

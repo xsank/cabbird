@@ -16,15 +16,9 @@ def minDistance(word1, word2):
 
 
 if __name__ == "__main__":
-    print
-    minDistance("hello", "world")
-    print
-    minDistance("abc", "cba")
-    print
-    minDistance("a", "")
-    print
-    minDistance("", "a")
-    print
-    minDistance("a", "ab")
-    print
-    minDistance("ab", "c")
+    print(minDistance("hello", "world"))
+    print(minDistance("abc", "cba"))
+    print(minDistance("a", ""))
+    print(minDistance("", "a"))
+    print(minDistance("a", "ab"))
+    print(minDistance("ab", "c"))

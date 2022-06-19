@@ -16,5 +16,4 @@ def postTravel(res, root):
 
 if __name__ == "__main__":
     root = listToTree([1, 2, 3])
-    print
-    postorderTraversal(root)
+    print(postorderTraversal(root))

@@ -32,5 +32,4 @@ def countAndSay(n):
 
 
 if __name__ == "__main__":
-    print
-    countAndSay(1)
+    print(countAndSay(1))

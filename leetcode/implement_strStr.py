@@ -3,7 +3,5 @@ def strStr(haystack, needle):
 
 
 if __name__ == "__main__":
-    print
-    strStr("hello", "ll")
-    print
-    strStr("hello", "llc")
+    print(strStr("hello", "ll"))
+    print(strStr("hello", "llc"))

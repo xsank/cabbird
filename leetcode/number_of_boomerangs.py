@@ -15,5 +15,4 @@ def numberOfBoomerangs(points):
 
 
 if __name__ == "__main__":
-    print
-    numberOfBoomerangs([[0, 0], [1, 0], [2, 0]])
+    print(numberOfBoomerangs([[0, 0], [1, 0], [2, 0]]))

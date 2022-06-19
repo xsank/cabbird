@@ -11,7 +11,5 @@ def firstMissingPositive(nums):
 
 
 if __name__ == "__main__":
-    print
-    firstMissingPositive([3, 4, -1, 1])
-    print
-    firstMissingPositive([1, 2, 0])
+    print(firstMissingPositive([3, 4, -1, 1]))
+    print(firstMissingPositive([1, 2, 0]))

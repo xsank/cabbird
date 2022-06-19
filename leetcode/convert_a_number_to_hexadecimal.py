@@ -16,11 +16,7 @@ def toHex(num):
 
 
 if __name__ == "__main__":
-    print
-    toHex(26)
-    print
-    toHex(0)
-    print
-    toHex(-1)
-    print
-    toHex(2147483647)
+    print(toHex(26))
+    print(toHex(0))
+    print(toHex(-1))
+    print(toHex(2147483647))

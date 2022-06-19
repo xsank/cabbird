@@ -8,7 +8,5 @@ def integerReplacement(n):
 
 
 if __name__ == "__main__":
-    print
-    integerReplacement(8)
-    print
-    integerReplacement(7)
+    print(integerReplacement(8))
+    print(integerReplacement(7))

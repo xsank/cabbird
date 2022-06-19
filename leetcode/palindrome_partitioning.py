@@ -26,9 +26,6 @@ def isPalindrome(s):
 
 
 if __name__ == "__main__":
-    print
-    partition("aa")
-    print
-    partition("aab")
-    print
-    partition("aabb")
+    print(partition("aa"))
+    print(partition("aab"))
+    print(partition("aabb"))

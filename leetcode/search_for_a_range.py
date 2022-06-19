@@ -17,5 +17,4 @@ def searchRange(nums, target):
 
 
 if __name__ == "__main__":
-    print
-    searchRange([1], 0)
+    print(searchRange([1], 0))

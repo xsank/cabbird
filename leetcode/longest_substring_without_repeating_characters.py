@@ -24,5 +24,4 @@ def lengthOfLongestSubstring(s):
 
 
 if __name__ == "__main__":
-    print
-    lengthOfLongestSubstring("abcddcbae")
+    print(lengthOfLongestSubstring("abcddcbae"))

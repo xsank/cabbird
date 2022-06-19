@@ -16,5 +16,4 @@ def listToIntervals(*l):
 
 def printIntervals(intervals):
     for i in intervals:
-        print
-        i
+        print(i)

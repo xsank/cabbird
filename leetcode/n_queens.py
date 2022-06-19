@@ -28,12 +28,8 @@ def solveNQueens(n):
 
 
 if __name__ == "__main__":
-    print
-    solveNQueens(1)
-    print
-    solveNQueens(2)
-    print
-    solveNQueens(3)
-    print
-    solveNQueens(4)
-    # print solveNQueens(8)
+    print(solveNQueens(1))
+    print(solveNQueens(2))
+    print(solveNQueens(3))
+    print(solveNQueens(4))
+    # print(solveNQueens(8))

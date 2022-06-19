@@ -27,10 +27,8 @@ def ladderLength(beginWord, endWord, wordList):
 
 
 if __name__ == "__main__":
-    print
-    ladderLength("hit", "cog", ["hot", "dot", "dog", "lot", "log", "cog"])
-    print
-    ladderLength("sand", "acne",
+    print(ladderLength("hit", "cog", ["hot", "dot", "dog", "lot", "log", "cog"]))
+    print(ladderLength("sand", "acne",
                  ["slit", "bunk", "wars", "ping", "viva", "wynn", "wows", "irks", "gang", "pool", "mock", "fort",
                   "heel", "send", "ship", "cols", "alec", "foal", "nabs", "gaze", "giza", "mays", "dogs", "karo",
                   "cums", "jedi", "webb", "lend", "mire", "jose", "catt", "grow", "toss", "magi", "leis", "bead",
@@ -268,4 +266,4 @@ if __name__ == "__main__":
                   "verb", "lamb", "bomb", "army", "yoke", "gels", "tits", "bork", "mils", "nary", "barn", "hype",
                   "odom", "avon", "hewn", "rios", "cams", "tact", "boss", "oleo", "duke", "eris", "gwen", "elms",
                   "deon", "sims", "quit", "nest", "font", "dues", "yeas", "zeta", "bevy", "gent", "torn", "cups",
-                  "worm", "baum", "axon", "purr", "vise", "grew", "govs", "meat", "chef", "rest", "lame"])
+                  "worm", "baum", "axon", "purr", "vise", "grew", "govs", "meat", "chef", "rest", "lame"]))

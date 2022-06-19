@@ -27,5 +27,4 @@ def count(cmap, root):
 
 if __name__ == "__main__":
     root = listToTree([1, None, 2, 2])
-    print
-    findMode(root)
+    print(findMode(root))

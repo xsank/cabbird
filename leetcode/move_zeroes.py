@@ -7,9 +7,6 @@ def moveZeroes(nums):
 
 
 if __name__ == "__main__":
-    print
-    moveZeroes([0, 1, 0, 3, 12])
-    print
-    moveZeroes([0, 0])
-    print
-    moveZeroes([1, 0, 0])
+    print(moveZeroes([0, 1, 0, 3, 12]))
+    print(moveZeroes([0, 0]))
+    print(moveZeroes([1, 0, 0]))

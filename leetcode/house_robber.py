@@ -13,11 +13,7 @@ def rob(num):
 
 
 if __name__ == "__main__":
-    print
-    rob([1])
-    print
-    rob([2, 1])
-    print
-    rob([1, 2, 3])
-    print
-    rob([1, 2, 3, 4, 5, 6, 7])
+    print(rob([1]))
+    print(rob([2, 1]))
+    print(rob([1, 2, 3]))
+    print(rob([1, 2, 3, 4, 5, 6, 7]))

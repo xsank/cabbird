@@ -32,18 +32,12 @@ if __name__ == "__main__":
     ms.push(0)
     ms.push(3)
     ms.push(0)
-    print
-    ms.getMin()
-    print
-    ms.top()
+    print(ms.getMin())
+    print(ms.top())
     ms.pop()
-    print
-    ms.getMin()
+    print(ms.getMin())
     ms.pop()
-    print
-    ms.getMin()
+    print(ms.getMin())
     ms.pop()
-    print
-    ms.getMin()
-    print
-    ms.top()
+    print(ms.getMin())
+    print(ms.top())

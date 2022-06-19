@@ -20,11 +20,7 @@ def trailingZeroes(n):
 
 
 if __name__ == "__main__":
-    print
-    trailingZeroes(5)
-    print
-    trailingZeroes(4)
-    print
-    trailingZeroes(10)
-    print
-    trailingZeroes(1808548329)
+    print(trailingZeroes(5))
+    print(trailingZeroes(4))
+    print(trailingZeroes(10))
+    print(trailingZeroes(1808548329))

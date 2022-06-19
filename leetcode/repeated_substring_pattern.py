@@ -22,11 +22,7 @@ def repeatedSubstringPattern(str):
 
 
 if __name__ == "__main__":
-    print
-    repeatedSubstringPattern("abab")
-    print
-    repeatedSubstringPattern("aba")
-    print
-    repeatedSubstringPattern("abac")
-    print
-    repeatedSubstringPattern("abcabcabcabc")
+    print(repeatedSubstringPattern("abab"))
+    print(repeatedSubstringPattern("aba"))
+    print(repeatedSubstringPattern("abac"))
+    print(repeatedSubstringPattern("abcabcabcabc"))

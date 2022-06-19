@@ -23,13 +23,8 @@ def integerBreak(n):
 
 
 if __name__ == "__main__":
-    print
-    integerBreak(2)
-    print
-    integerBreak(3)
-    print
-    integerBreak(4)
-    print
-    integerBreak(10)
-    print
-    integerBreak(16)
+    print(integerBreak(2))
+    print(integerBreak(3))
+    print(integerBreak(4))
+    print(integerBreak(10))
+    print(integerBreak(16))

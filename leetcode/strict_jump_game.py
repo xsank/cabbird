@@ -9,13 +9,8 @@ def canJump(nums):
 
 
 if __name__ == "__main__":
-    print
-    canJump([2, 3, 1, 1, 4])
-    print
-    canJump([3, 2, 1, 0, 4])
-    print
-    canJump([3])
-    print
-    canJump([0])
-    print
-    canJump([2, 0])
+    print(canJump([2, 3, 1, 1, 4]))
+    print(canJump([3, 2, 1, 0, 4]))
+    print(canJump([3]))
+    print(canJump([0]))
+    print(canJump([2, 0]))

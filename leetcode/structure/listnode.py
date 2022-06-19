@@ -19,6 +19,5 @@ def listToNode(l):
 
 def printNode(node):
     while node is not None:
-        print
-        node.val
+        print(node.val)
         node = node.next

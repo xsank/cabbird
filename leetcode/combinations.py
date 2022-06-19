@@ -17,7 +17,5 @@ def combine(n, k):
 
 
 if __name__ == "__main__":
-    print
-    combine(4, 2)
-    print
-    combine(4, 4)
+    print(combine(4, 2))
+    print(combine(4, 4))

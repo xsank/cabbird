@@ -6,7 +6,5 @@ def titleToNumber(s):
 
 
 if __name__ == "__main__":
-    print
-    titleToNumber('AA')
-    print
-    titleToNumber('A')
+    print(titleToNumber('AA'))
+    print(titleToNumber('A'))

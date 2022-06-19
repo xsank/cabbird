@@ -11,5 +11,4 @@ def removeDuplicates(A):
 
 
 if __name__ == "__main__":
-    print
-    removeDuplicates([1, 2, 3])
+    print(removeDuplicates([1, 2, 3]))

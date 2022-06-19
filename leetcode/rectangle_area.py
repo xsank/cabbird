@@ -8,5 +8,4 @@ def computeArea(A, B, C, D, E, F, G, H):
 
 
 if __name__ == "__main__":
-    print
-    computeArea(-3, 0, 3, 4, 0, -1, 9, 2)
+    print(computeArea(-3, 0, 3, 4, 0, -1, 9, 2))

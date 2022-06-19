@@ -28,12 +28,10 @@ def search(board, hi, wi, i, j, word, record):
 
 
 if __name__ == "__main__":
-    print
-    findWords(["a"], ["a", "a"])
-    print
-    findWords([
+    print(findWords(["a"], ["a", "a"]))
+    print(findWords([
         ['o', 'a', 'a', 'n'],
         ['e', 't', 'a', 'e'],
         ['i', 'h', 'k', 'r'],
         ['i', 'f', 'l', 'v']
-    ], ["oath", "pea", "eat", "rain"])
+    ], ["oath", "pea", "eat", "rain"]))

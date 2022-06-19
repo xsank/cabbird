@@ -3,5 +3,4 @@ def reverseString(s):
 
 
 if __name__ == "__main__":
-    print
-    reverseString("hello")
+    print(reverseString("hello"))

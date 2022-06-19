@@ -13,13 +13,8 @@ def arrangeCoins(n):
 
 
 if __name__ == "__main__":
-    print
-    arrangeCoins(0)
-    print
-    arrangeCoins(1)
-    print
-    arrangeCoins(5)
-    print
-    arrangeCoins(6)
-    print
-    arrangeCoins(8)
+    print(arrangeCoins(0))
+    print(arrangeCoins(1))
+    print(arrangeCoins(5))
+    print(arrangeCoins(6))
+    print(arrangeCoins(8))

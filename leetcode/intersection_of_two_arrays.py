@@ -3,5 +3,4 @@ def intersection(nums1, nums2):
 
 
 if __name__ == "__main__":
-    print
-    intersection([1, 2, 2, 1], [2, 2])
+    print(intersection([1, 2, 2, 1], [2, 2]))

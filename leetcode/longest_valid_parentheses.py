@@ -18,11 +18,7 @@ def longestValidParentheses(s):
 
 
 if __name__ == "__main__":
-    print
-    longestValidParentheses("(()")
-    print
-    longestValidParentheses(")()())")
-    print
-    longestValidParentheses("(())(")
-    print
-    longestValidParentheses("()(()")
+    print(longestValidParentheses("(())"))
+    print(longestValidParentheses("))()())"))
+    print(longestValidParentheses("(()))("))
+    print(longestValidParentheses("())(()"))

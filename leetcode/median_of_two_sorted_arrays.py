@@ -15,5 +15,4 @@ def findMedianSortedArrays(A, B):
 
 
 if __name__ == "__main__":
-    print
-    findMedianSortedArrays([1, 2, 3], [4, 5])
+    print(findMedianSortedArrays([1, 2, 3], [4, 5]))

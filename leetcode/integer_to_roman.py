@@ -24,7 +24,5 @@ def intToRoman(num):
 
 
 if __name__ == "__main__":
-    print
-    intToRoman(151)
-    print
-    intToRoman(1)
+    print(intToRoman(151))
+    print(intToRoman(1))

@@ -15,17 +15,10 @@ def removeDuplicateLetters(s):
 
 
 if __name__ == "__main__":
-    print
-    removeDuplicateLetters("bcabc")
-    print
-    removeDuplicateLetters("a")
-    print
-    removeDuplicateLetters("")
-    print
-    removeDuplicateLetters("abacb")
-    print
-    removeDuplicateLetters("cbacdcbc")
-    print
-    removeDuplicateLetters("cbadccbc")
-    print
-    removeDuplicateLetters("bbbbcaddbf")
+    print(removeDuplicateLetters("bcabc"))
+    print(removeDuplicateLetters("a"))
+    print(removeDuplicateLetters(""))
+    print(removeDuplicateLetters("abacb"))
+    print(removeDuplicateLetters("cbacdcbc"))
+    print(removeDuplicateLetters("cbadccbc"))
+    print(removeDuplicateLetters("bbbbcaddbf"))

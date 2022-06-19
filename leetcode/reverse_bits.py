@@ -12,5 +12,4 @@ def reverseBits(n):
 
 
 if __name__ == "__main__":
-    print
-    bin(43261596), bin(reverseBits(43261596)), reverseBits(43261596)
+    print(bin(43261596)), bin(reverseBits(43261596)), reverseBits(43261596)

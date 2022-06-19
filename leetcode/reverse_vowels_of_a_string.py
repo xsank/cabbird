@@ -19,7 +19,5 @@ def isVowel(c):
 
 
 if __name__ == "__main__":
-    print
-    reverseVowels("hello")
-    print
-    reverseVowels("leetcode")
+    print(reverseVowels("hello"))
+    print(reverseVowels("leetcode"))

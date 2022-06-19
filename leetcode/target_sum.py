@@ -27,11 +27,7 @@ def findTargetSumWays(nums, S):
 
 
 if __name__ == "__main__":
-    print
-    findTargetSumWays([1, 1, 1, 1, 1], 3)
-    print
-    findTargetSumWays([1], 1)
-    print
-    findTargetSumWays([1], 2)
-    print
-    findTargetSumWays([0, 0, 0, 0, 0, 0, 0, 0, 1], 1)
+    print(findTargetSumWays([1, 1, 1, 1, 1], 3))
+    print(findTargetSumWays([1], 1))
+    print(findTargetSumWays([1], 2))
+    print(findTargetSumWays([0, 0, 0, 0, 0, 0, 0, 0, 1], 1))

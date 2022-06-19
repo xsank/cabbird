@@ -11,7 +11,5 @@ def numTrees(n):
 
 
 if __name__ == "__main__":
-    print
-    numTrees(5)
-    print
-    numTrees(3)
+    print(numTrees(5))
+    print(numTrees(3))

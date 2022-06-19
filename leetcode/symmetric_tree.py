@@ -18,5 +18,4 @@ def compare(left, right):
 
 if __name__ == "__main__":
     node = listToTree([1, 2, 2, None, 3, None, 3])
-    print
-    isSymmetric(node)
+    print(isSymmetric(node))

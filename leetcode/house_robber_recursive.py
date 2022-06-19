@@ -22,5 +22,4 @@ class Solution:
 
 
 if __name__ == "__main__":
-    print
-    Solution().rob([1])
+    print(Solution()).rob([1])

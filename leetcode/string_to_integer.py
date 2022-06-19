@@ -28,15 +28,9 @@ def atoi(str):
 
 
 if __name__ == "__main__":
-    print
-    atoi("1")
-    print
-    atoi("+5 43 53636 ")
-    print
-    atoi("12355")
-    print
-    atoi("-434")
-    print
-    atoi("-5435gaaf")
-    print
-    atoi("   +0 123")
+    print(atoi("1"))
+    print(atoi("+5 43 53636 "))
+    print(atoi("12355"))
+    print(atoi("-434"))
+    print(atoi("-5435gaaf"))
+    print(atoi("   +0 123"))

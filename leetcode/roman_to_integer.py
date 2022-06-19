@@ -25,9 +25,6 @@ def romanToInt(s):
 
 
 if __name__ == "__main__":
-    print
-    romanToInt("I")
-    print
-    romanToInt("CLI")
-    print
-    romanToInt("MCMXCVI")
+    print(romanToInt("I"))
+    print(romanToInt("CLI"))
+    print(romanToInt("MCMXCVI"))

@@ -3,5 +3,4 @@ def bulbSwitch(n):
 
 
 if __name__ == "__main__":
-    print
-    bulbSwith(6)
+    print(bulbSwith(6))

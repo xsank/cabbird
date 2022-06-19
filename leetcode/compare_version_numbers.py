@@ -26,19 +26,11 @@ def compareVersion(version1, version2):
 
 
 if __name__ == "__main__":
-    print
-    compareVersion("0.1", "1.1")
-    print
-    compareVersion("1.1", "1.1.1")
-    print
-    compareVersion("1.2", "11.11")
-    print
-    compareVersion("1", "1")
-    print
-    compareVersion("1.1", "1.0")
-    print
-    compareVersion("01", "1")
-    print
-    compareVersion("1.0", "1")
-    print
-    compareVersion("1.0.1", "1")
+    print(compareVersion("0.1", "1.1"))
+    print(compareVersion("1.1", "1.1.1"))
+    print(compareVersion("1.2", "11.11"))
+    print(compareVersion("1", "1"))
+    print(compareVersion("1.1", "1.0"))
+    print(compareVersion("01", "1"))
+    print(compareVersion("1.0", "1"))
+    print(compareVersion("1.0.1", "1"))

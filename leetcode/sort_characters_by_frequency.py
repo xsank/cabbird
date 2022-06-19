@@ -10,9 +10,6 @@ def frequencySort(s):
 
 
 if __name__ == "__main__":
-    print
-    frequencySort("tree")
-    print
-    frequencySort("cccaaa")
-    print
-    frequencySort("Aabb")
+    print(frequencySort("tree"))
+    print(frequencySort("cccaaa"))
+    print(frequencySort("Aabb"))

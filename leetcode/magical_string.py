@@ -6,5 +6,4 @@ def magicalString(n):
 
 
 if __name__ == "__main__":
-    print
-    magicalString(6)
+    print(magicalString(6))

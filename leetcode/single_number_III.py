@@ -11,5 +11,4 @@ def singleNumber(nums):
 
 
 if __name__ == "__main__":
-    print
-    singleNumber([1, 2, 1, 3, 2, 5])
+    print(singleNumber([1, 2, 1, 3, 2, 5]))

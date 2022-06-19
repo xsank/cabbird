@@ -5,5 +5,4 @@ def containsDuplicate(nums):
 
 
 if __name__ == "__main__":
-    print
-    containsDuplicate([1, 1])
+    print(containsDuplicate([1, 1]))

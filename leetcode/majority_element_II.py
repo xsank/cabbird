@@ -11,7 +11,5 @@ def majorityElement(nums):
 
 
 if __name__ == "__main__":
-    print
-    majorityElement([3, 3, 3, 2, 2, 1])
-    print
-    majorityElement([])
+    print(majorityElement([3, 3, 3, 2, 2, 1]))
+    print(majorityElement([]))

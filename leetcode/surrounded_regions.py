@@ -27,8 +27,7 @@ def solve(board):
                 if surrounded:
                     for i, j in points:
                         board[i][j] = "X"
-    print
-    board
+    print(board)
 
 
 if __name__ == "__main__":

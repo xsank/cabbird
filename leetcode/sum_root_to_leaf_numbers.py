@@ -21,5 +21,4 @@ def genNum(res, s, root):
 
 if __name__ == "__main__":
     root = listToTree([1, 2, 3])
-    print
-    sumNumbers(root)
+    print(sumNumbers(root))

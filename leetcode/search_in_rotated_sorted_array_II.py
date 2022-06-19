@@ -21,15 +21,9 @@ def search(nums, target):
 
 
 if __name__ == "__main__":
-    print
-    search([4, 5, 6, 7, 0, 1, 2, 3], 4)
-    print
-    search([1, 3, 1, 1, 1], 4)
-    print
-    search([1, 3, 1, 1, 1], 3)
-    print
-    search([1, 3], 3)
-    print
-    search([3, 5, 1], 1)
-    print
-    search([3, 1, 2, 2, 2], 1)
+    print(search([4, 5, 6, 7, 0, 1, 2, 3], 4))
+    print(search([1, 3, 1, 1, 1], 4))
+    print(search([1, 3, 1, 1, 1], 3))
+    print(search([1, 3], 3))
+    print(search([3, 5, 1], 1))
+    print(search([3, 1, 2, 2, 2], 1))

@@ -7,13 +7,8 @@ def isPerfectSquare(num):
 
 
 if __name__ == "__main__":
-    print
-    isPerfectSquare(14)
-    print
-    isPerfectSquare(16)
-    print
-    isPerfectSquare(1)
-    print
-    isPerfectSquare(4)
-    print
-    isPerfectSquare(2147483647)
+    print(isPerfectSquare(14))
+    print(isPerfectSquare(16))
+    print(isPerfectSquare(1))
+    print(isPerfectSquare(4))
+    print(isPerfectSquare(2147483647))

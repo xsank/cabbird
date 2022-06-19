@@ -22,5 +22,4 @@ def guessNumber(n):
 
 
 if __name__ == "__main__":
-    print
-    guessNumber(10)
+    print(guessNumber(10))

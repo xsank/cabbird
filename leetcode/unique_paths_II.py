@@ -27,17 +27,10 @@ def uniquePathsWithObstacles(obstacleGrid):
 
 
 if __name__ == "__main__":
-    print
-    uniquePathsWithObstacles([[0, 0, 0], [0, 1, 0], [0, 0, 0]])
-    print
-    uniquePathsWithObstacles([[0, 0, 0]])
-    print
-    uniquePathsWithObstacles([[0, 1, 0]])
-    print
-    uniquePathsWithObstacles([[0], [0], [0]])
-    print
-    uniquePathsWithObstacles([[0, 0], [0, 1]])
-    print
-    uniquePathsWithObstacles([[0, 1], [1, 0]])
-    print
-    uniquePathsWithObstacles([[0, 0], [1, 1], [0, 0]])
+    print(uniquePathsWithObstacles([[0, 0, 0], [0, 1, 0], [0, 0, 0]]))
+    print(uniquePathsWithObstacles([[0, 0, 0]]))
+    print(uniquePathsWithObstacles([[0, 1, 0]]))
+    print(uniquePathsWithObstacles([[0], [0], [0]]))
+    print(uniquePathsWithObstacles([[0, 0], [0, 1]]))
+    print(uniquePathsWithObstacles([[0, 1], [1, 0]]))
+    print(uniquePathsWithObstacles([[0, 0], [1, 1], [0, 0]]))

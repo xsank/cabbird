@@ -13,9 +13,6 @@ def uniquePaths(m, n):
 
 
 if __name__ == "__main__":
-    print
-    rec_uniquePaths(3, 7)
-    print
-    uniquePaths(3, 7)
-    print
-    uniquePaths(100, 100)
+    print(rec_uniquePaths(3, 7))
+    print(uniquePaths(3, 7))
+    print(uniquePaths(100, 100))

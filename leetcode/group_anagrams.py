@@ -17,7 +17,5 @@ def groupAnagrams(strs):
 
 
 if __name__ == "__main__":
-    print
-    groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"])
-    print
-    groupAnagrams(["cab", "pug", "pei", "nay", "ron", "rae", "ems", "ida", "mes"])
+    print(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
+    print(groupAnagrams(["cab", "pug", "pei", "nay", "ron", "rae", "ems", "ida", "mes"]))

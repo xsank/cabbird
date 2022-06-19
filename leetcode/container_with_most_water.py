@@ -14,5 +14,4 @@ def maxArea(height):
 
 
 if __name__ == "__main__":
-    print
-    maxArea([1, 2, 3, 4, 5])
+    print(maxArea([1, 2, 3, 4, 5]))

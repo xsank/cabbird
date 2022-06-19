@@ -17,17 +17,10 @@ def longestCommonPrefix(strs):
 
 
 if __name__ == "__main__":
-    print
-    longestCommonPrefix(["adb", "df", "c"])
-    print
-    longestCommonPrefix(["", "df", "d"])
-    print
-    longestCommonPrefix(["abc", "abc", "abc"])
-    print
-    longestCommonPrefix(["abcddd", "ab", "abcedf"])
-    print
-    longestCommonPrefix(["adb"])
-    print
-    longestCommonPrefix([""])
-    print
-    longestCommonPrefix([])
+    print(longestCommonPrefix(["adb", "df", "c"]))
+    print(longestCommonPrefix(["", "df", "d"]))
+    print(longestCommonPrefix(["abc", "abc", "abc"]))
+    print(longestCommonPrefix(["abcddd", "ab", "abcedf"]))
+    print(longestCommonPrefix(["adb"]))
+    print(longestCommonPrefix([""]))
+    print(longestCommonPrefix([]))

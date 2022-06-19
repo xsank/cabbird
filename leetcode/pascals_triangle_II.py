@@ -11,11 +11,7 @@ def getRow(rowIndex):
 
 
 if __name__ == "__main__":
-    print
-    getRow(5)
-    print
-    getRow(1)
-    print
-    getRow(0)
-    print
-    getRow(3)
+    print(getRow(5))
+    print(getRow(1))
+    print(getRow(0))
+    print(getRow(3))

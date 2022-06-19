@@ -17,11 +17,7 @@ def getHint(secret, guess):
 
 
 if __name__ == "__main__":
-    print
-    getHint("1807", "7810")
-    print
-    getHint("1123", "0111")
-    print
-    getHint("1122", "2211")
-    print
-    getHint("1122", "1222")
+    print(getHint("1807", "7810"))
+    print(getHint("1123", "0111"))
+    print(getHint("1122", "2211"))
+    print(getHint("1122", "1222"))

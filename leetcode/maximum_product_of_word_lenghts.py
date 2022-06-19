@@ -17,20 +17,13 @@ def maxProduct(words):
 
 
 if __name__ == "__main__":
-    print
-    maxProduct(["abcw", "baz", "foo", "bar", "xtfn", "abcdef"])
-    print
-    maxProduct(["a", "ab", "abc", "d", "cd", "bcd", "abcd"])
-    print
-    maxProduct(["a", "aa", "aaa", "aaaa"])
-    print
-    maxProduct([])
-    print
-    maxProduct(["a"])
-    print
-    maxProduct(["abc", "a", "b"])
-    print
-    maxProduct(["rcpzismixnpnmbqeitlwptppjpidjblkppuzpmwibjoptzmobhydloxqexe", "yqpqpll",
+    print(maxProduct(["abcw", "baz", "foo", "bar", "xtfn", "abcdef"]))
+    print(maxProduct(["a", "ab", "abc", "d", "cd", "bcd", "abcd"]))
+    print(maxProduct(["a", "aa", "aaa", "aaaa"]))
+    print(maxProduct([]))
+    print(maxProduct(["a"]))
+    print(maxProduct(["abc", "a", "b"]))
+    print(maxProduct(["rcpzismixnpnmbqeitlwptppjpidjblkppuzpmwibjoptzmobhydloxqexe", "yqpqpll",
                 "blwjfpljvdeeuafqscxdgwybowchnbmkgoyofvrrpww", "mwsedjtqtpbygheohbrbntvlsmpixwu",
                 "ftobpfdgcqtoopikksuxaeimchhdbxwwyeymjihtncyuvcqguchlgmdbshwqupfkabsgaeqntvrrlyymglatlfsuajzklg",
                 "tdwhzbeyxrbxfhxebaaookkryzmsetwuecejmvcthbbajnmcmdpihdmpjmrdyro", "sjepkrcpfruskqj",
@@ -720,4 +713,4 @@ if __name__ == "__main__":
                 "dhhvkdpmrbeoqtkadaacclyvcnskvowwnjpzguknxgaiqfertoiijsjnzkmphyxcssheooxmeqx", "aafegfrrkpbxp",
                 "vmoapvvepybhcdbqrpabrfpxarvqrzurtrxecmszmurl", "bopbhrlufrrnh",
                 "ihggkjhgvkyiujmiwxqeegruyckxaloxmpwtwwehir",
-                "msuifqxqoxungxbxdchhzsbiqvjlmpuoioqvjlzzewusaoqskyghisqmzdhixmnjoywjaqxwbojnklynfuylapclgdwaxguhdqqpz"])
+                "msuifqxqoxungxbxdchhzsbiqvjlmpuoioqvjlzzewusaoqskyghisqmzdhixmnjoywjaqxwbojnklynfuylapclgdwaxguhdqqpz"]))

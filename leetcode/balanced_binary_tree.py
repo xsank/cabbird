@@ -15,5 +15,4 @@ def isBalanced(root):
 
 if __name__ == "__main__":
     root = listToTree([1, 2, 3, 4, 5, 6, 7])
-    print
-    isBalanced(root)
+    print(isBalanced(root))

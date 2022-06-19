@@ -19,13 +19,8 @@ def findPeakElement(nums):
 
 
 if __name__ == "__main__":
-    print
-    findPeakElement([1, 2, 3, 1])
-    print
-    findPeakElement([1, 2])
-    print
-    findPeakElement([1, 2, 3])
-    print
-    findPeakElement([1, 2, 1])
-    print
-    findPeakElement([1, 2, 1, 2, 1])
+    print(findPeakElement([1, 2, 3, 1]))
+    print(findPeakElement([1, 2]))
+    print(findPeakElement([1, 2, 3]))
+    print(findPeakElement([1, 2, 1]))
+    print(findPeakElement([1, 2, 1, 2, 1]))

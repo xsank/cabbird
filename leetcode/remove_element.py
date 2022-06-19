@@ -5,5 +5,4 @@ def removeElement(A, elem):
 
 
 if __name__ == "__main__":
-    print
-    removeElement([1, 2, 3, 4, 1], 1)
+    print(removeElement([1, 2, 3, 4, 1], 1))

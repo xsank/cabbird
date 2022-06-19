@@ -21,21 +21,16 @@ def isSameTree(p, q):
 if __name__ == "__main__":
     p = listToTree([1, 2, 3, 4])
     q = listToTree([1, 2, 3, 4])
-    print
-    isSameTree(p, p)
+    print(isSameTree(p, p))
     p = listToTree([1, 2, 3, 4])
     q = listToTree([1, 2, 3, 4, 5])
-    print
-    isSameTree(p, q)
+    print(isSameTree(p, q))
     p = listToTree([1, 2, 3, 4])
     q = listToTree([1, 2, 3, 3])
-    print
-    isSameTree(p, q)
+    print(isSameTree(p, q))
     p = listToTree([1])
     q = listToTree([])
-    print
-    isSameTree(p, q)
+    print(isSameTree(p, q))
     p = listToTree([])
     q = listToTree([])
-    print
-    isSameTree(p, q)
+    print(isSameTree(p, q))

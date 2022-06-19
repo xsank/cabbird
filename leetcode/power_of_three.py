@@ -6,11 +6,7 @@ def isPowerOfThree(n):
 
 
 if __name__ == "__main__":
-    print
-    isPowerOfThree(0)
-    print
-    isPowerOfThree(6)
-    print
-    isPowerOfThree(9)
-    print
-    isPowerOfThree(243)
+    print(isPowerOfThree(0))
+    print(isPowerOfThree(6))
+    print(isPowerOfThree(9))
+    print(isPowerOfThree(243))

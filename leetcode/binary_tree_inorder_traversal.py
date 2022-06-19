@@ -17,5 +17,4 @@ def inorderTraversal(root):
 if __name__ == "__main__":
     _tree = listToTree([1, 2, 3])
     printNode(_tree)
-    print
-    inorderTraversal(_tree)
+    print(inorderTraversal(_tree))

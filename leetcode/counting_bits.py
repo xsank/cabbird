@@ -6,9 +6,6 @@ def countBits(num):
 
 
 if __name__ == "__main__":
-    print
-    countBits(0)
-    print
-    countBits(5)
-    print
-    countBits(9)
+    print(countBits(0))
+    print(countBits(5))
+    print(countBits(9))

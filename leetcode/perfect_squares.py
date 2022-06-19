@@ -14,9 +14,6 @@ def numSquares(n):
 
 
 if __name__ == "__main__":
-    print
-    numSquares(12)
-    print
-    numSquares(13)
-    print
-    numSquares(9975)
+    print(numSquares(12))
+    print(numSquares(13))
+    print(numSquares(9975))

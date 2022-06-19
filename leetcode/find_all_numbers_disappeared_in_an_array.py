@@ -6,5 +6,4 @@ def findDisappearedNumbers(nums):
 
 
 if __name__ == "__main__":
-    print
-    findDisappearedNumbers([4, 3, 2, 7, 8, 2, 3, 1])
+    print(findDisappearedNumbers([4, 3, 2, 7, 8, 2, 3, 1]))

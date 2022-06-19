@@ -29,13 +29,9 @@ def minMutation(start, end, bank):
 
 
 if __name__ == "__main__":
-    print
-    minMutation("AACCGGTT", "AACCGGTA", ["AACCGGTA"])
-    print
-    minMutation("AACCGGTT", "AAACGGTA", ["AACCGGTA", "AACCGCTA", "AAACGGTA"])
-    print
-    minMutation("AAAAACCC", "AACCCCCC", ["AAAACCCC", "AAACCCCC", "AACCCCCC"])
-    print
-    minMutation("AACCGGTT",
+    print(minMutation("AACCGGTT", "AACCGGTA", ["AACCGGTA"]))
+    print(minMutation("AACCGGTT", "AAACGGTA", ["AACCGGTA", "AACCGCTA", "AAACGGTA"]))
+    print(minMutation("AAAAACCC", "AACCCCCC", ["AAAACCCC", "AAACCCCC", "AACCCCCC"]))
+    print(minMutation("AACCGGTT",
                 "AAACGGTA",
-                ["AACCGATT", "AACCGATA", "AAACGATA", "AAACGGTA"])
+                ["AACCGATT", "AACCGATA", "AAACGATA", "AAACGGTA"]))

@@ -11,9 +11,6 @@ def minPathSum(grid):
 
 
 if __name__ == "__main__":
-    print
-    minPathSum([[1, 2, 3]])
-    print
-    minPathSum([[1, 2], [3, 4]])
-    print
-    minPathSum([[1, 1], [2, 7], [2, 8]])
+    print(minPathSum([[1, 2, 3]]))
+    print(minPathSum([[1, 2], [3, 4]]))
+    print(minPathSum([[1, 1], [2, 7], [2, 8]]))

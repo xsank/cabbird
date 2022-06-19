@@ -10,11 +10,7 @@ def findPoisonedDuration(timeSeries, duration):
 
 
 if __name__ == "__main__":
-    print
-    findPoisonedDuration([], 2)
-    print
-    findPoisonedDuration([1, 4], 2)
-    print
-    findPoisonedDuration([1], 2)
-    print
-    findPoisonedDuration([1, 2], 2)
+    print(findPoisonedDuration([], 2))
+    print(findPoisonedDuration([1, 4], 2))
+    print(findPoisonedDuration([1], 2))
+    print(findPoisonedDuration([1, 2], 2))

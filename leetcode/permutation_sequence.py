@@ -15,7 +15,5 @@ def getPermutation(n, k):
 
 
 if __name__ == "__main__":
-    print
-    getPermutation(3, 4)
-    print
-    getPermutation(4, 11)
+    print(getPermutation(3, 4))
+    print(getPermutation(4, 11))

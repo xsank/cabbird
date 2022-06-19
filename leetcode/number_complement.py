@@ -13,9 +13,6 @@ def findComplement(num):
 
 
 if __name__ == "__main__":
-    print
-    findComplement(5)
-    print
-    findComplement(1)
-    print
-    findComplement(4)
+    print(findComplement(5))
+    print(findComplement(1))
+    print(findComplement(4))

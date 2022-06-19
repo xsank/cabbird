@@ -18,5 +18,4 @@ def dfs(root, level, res):
 if __name__ == "__main__":
     root = listToTree([1])
     printNode(root)
-    print
-    largestValues(root)
+    print(largestValues(root))

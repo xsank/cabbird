@@ -12,9 +12,6 @@ def convertToBase7(num):
 
 
 if __name__ == "__main__":
-    print
-    convertToBase7(-7)
-    print
-    convertToBase7(0)
-    print
-    convertToBase7(100)
+    print(convertToBase7(-7))
+    print(convertToBase7(0))
+    print(convertToBase7(100))

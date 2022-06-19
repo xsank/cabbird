@@ -37,7 +37,6 @@ def listToTree(l):
 
 def printNode(node):
     if node is not None:
-        print
-        node.val
+        print(node.val)
         printNode(node.left)
         printNode(node.right)

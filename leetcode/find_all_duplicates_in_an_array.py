@@ -10,5 +10,4 @@ def findDuplicates(nums):
 
 
 if __name__ == "__main__":
-    print
-    findDuplicates([4, 3, 2, 7, 8, 2, 3, 1])
+    print(findDuplicates([4, 3, 2, 7, 8, 2, 3, 1]))

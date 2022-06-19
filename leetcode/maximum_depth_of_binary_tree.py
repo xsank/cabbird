@@ -10,8 +10,6 @@ def maxDepth(root):
 
 if __name__ == "__main__":
     root = listToTree([1, 2, 3, 4, 5, 6])
-    print
-    maxDepth(root)
+    print(maxDepth(root))
     root = listToTree([])
-    print
-    maxDepth(root)
+    print(maxDepth(root))

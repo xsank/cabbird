@@ -9,11 +9,7 @@ def thirdMax(nums):
 
 
 if __name__ == "__main__":
-    print
-    thirdMax([1, 2])
-    print
-    thirdMax([1, 2, 3])
-    print
-    thirdMax([1, 2, 3, 4, 5])
-    print
-    thirdMax([1, 2, 2, 5, 3, 5])
+    print(thirdMax([1, 2]))
+    print(thirdMax([1, 2, 3]))
+    print(thirdMax([1, 2, 3, 4, 5]))
+    print(thirdMax([1, 2, 2, 5, 3, 5]))

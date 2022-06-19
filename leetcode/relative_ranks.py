@@ -19,5 +19,4 @@ def findRelativeRanks(nums):
 
 
 if __name__ == "__main__":
-    print
-    findRelativeRanks([6, 4, 3, 2, 1])
+    print(findRelativeRanks([6, 4, 3, 2, 1]))

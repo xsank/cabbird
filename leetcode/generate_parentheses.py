@@ -23,11 +23,7 @@ def genParenthesis(total, res, left, right):
 
 
 if __name__ == "__main__":
-    print
-    generateParenthesis(3)
-    print
-    generateParenthesis(1)
-    print
-    generateParenthesis(2)
-    print
-    generateParenthesis(4)
+    print(generateParenthesis(3))
+    print(generateParenthesis(1))
+    print(generateParenthesis(2))
+    print(generateParenthesis(4))

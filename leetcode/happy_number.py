@@ -15,9 +15,6 @@ def isHappy(n):
 
 
 if __name__ == "__main__":
-    print
-    isHappy(19)
-    print
-    isHappy(1)
-    print
-    isHappy(11)
+    print(isHappy(19))
+    print(isHappy(1))
+    print(isHappy(11))

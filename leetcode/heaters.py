@@ -5,7 +5,5 @@ def findRadius(houses, heaters):
 
 
 if __name__ == "__main__":
-    print
-    findRadius([1, 2, 3], [2])
-    print
-    findRadius([1, 2, 3, 4], [1, 4])
+    print(findRadius([1, 2, 3], [2]))
+    print(findRadius([1, 2, 3, 4], [1, 4]))

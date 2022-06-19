@@ -20,5 +20,4 @@ def permuteUnique(nums):
 
 
 if __name__ == "__main__":
-    print
-    permuteUnique([1, 2, 1])
+    print(permuteUnique([1, 2, 1]))
